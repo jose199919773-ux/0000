@@ -521,7 +521,7 @@
     {
       "id": "blips-3d",
       "name": "Blips 3D",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -549,9 +549,9 @@
       "files": [
         {
           "path": "Jose_blips_3d.asi",
-          "source": "packages/blips-3d/1.0.1/Jose_blips_3d.asi",
-          "bytes": 431104,
-          "sha256": "effa05a9a31b72e96e5be199e19643b9798e3c8429a01a41f057984f3b99ebb9"
+          "source": "packages/blips-3d/1.0.2/Jose_blips_3d.asi",
+          "bytes": 433152,
+          "sha256": "aba331f836dfa3bddbee5f8e7d6bd25d5de8d5294c12097869318ee3c8b47c2f"
         }
       ]
     },
