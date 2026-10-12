@@ -2161,5 +2161,8 @@
   "gtav.waypoint_color": "Cor do waypoint",
   "gtav.waypoint_size": "Tamanho do waypoint",
   "gtav.north_size": "Tamanho do norte",
-  "gtav.waypoint_custom": "Personalizar cor do waypoint"
+  "gtav.waypoint_custom": "Personalizar cor do waypoint",
+  "hud.selector_tlou_line1": "Vida e munição no estilo TLOU",
+  "hud.selector_l4d_line1": "Vida e equipamento no estilo L4D",
+  "hud.selector_module_line2": "Ajuste posição, tamanho e aparência"
 }
