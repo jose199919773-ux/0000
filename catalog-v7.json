@@ -3,52 +3,12 @@
   "name": "José Store",
   "bridge": {
     "protocol": 1,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "source": "bridge/JoseModsBridge.lua",
-    "bytes": 6111,
-    "sha256": "27ef89569873bec1cc118ff735f20c6f7649043eea53aa5f11e363915194f2e4"
+    "bytes": 6116,
+    "sha256": "0633a4f43e9516f7ae596f949938bd94918bca6560eb9d77693b05c8ee485f72"
   },
   "mods": [
-    {
-      "id": "reload-all",
-      "version": "1.0.0",
-      "name": "Recargar scripts",
-      "type": "lua",
-      "entry": "reload_all.lua",
-      "description": {
-        "es": "Recarga todos los scripts de MoonLoader con Ctrl + R.",
-        "en": "Reloads all MoonLoader scripts with Ctrl + R.",
-        "pt": "Recarrega todos os scripts do MoonLoader com Ctrl + R."
-      },
-      "files": [
-        {
-          "path": "reload_all.lua",
-          "source": "packages/reload-all/1.0.0/reload_all.lua",
-          "bytes": 214,
-          "sha256": "d89673b7515290e3da308107b4b8fb698705fa206f449ea050f20c73c5888de2"
-        }
-      ]
-    },
-    {
-      "id": "auto-reboot",
-      "version": "1.0.0",
-      "name": "AutoReboot",
-      "type": "lua",
-      "entry": "AutoReboot.lua",
-      "description": {
-        "es": "Recarga automáticamente los scripts cuando cambian sus archivos.",
-        "en": "Automatically reloads scripts when their files change.",
-        "pt": "Recarrega os scripts automaticamente quando seus arquivos mudam."
-      },
-      "files": [
-        {
-          "path": "AutoReboot.lua",
-          "source": "packages/auto-reboot/1.0.0/AutoReboot.lua",
-          "bytes": 2543,
-          "sha256": "7664cc8dc7959e614a3b7493666e59102fc988873013e1bcda8d8cbed0f32476"
-        }
-      ]
-    },
     {
       "id": "fps-unlock",
       "version": "1.0.0",
@@ -68,7 +28,12 @@
           "sha256": "b1fa613b7355c964002304b3957b19ab4b70752b2bfccf51c5ed2ef543732ef4"
         }
       ],
-      "unloadable": false
+      "unloadable": false,
+      "titles": {
+        "es": "Desbloqueo de FPS",
+        "en": "FPS Unlock",
+        "pt": "Desbloqueio de FPS"
+      }
     },
     {
       "id": "halo-hitmarker",
@@ -105,7 +70,12 @@
           "bytes": 18944,
           "sha256": "1bcccb208ab3b176f1dd453e5826abbd98170d1ef69ad8b1ffb789e24907fa18"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Marcador de impactos",
+        "en": "Hitmarker",
+        "pt": "Marcador de impactos"
+      }
     },
     {
       "id": "analog-clock",
@@ -155,6 +125,11 @@
           "en": "Clock",
           "pt": "Relógio"
         }
+      },
+      "titles": {
+        "es": "Reloj",
+        "en": "Clock",
+        "pt": "Relógio"
       }
     },
     {
@@ -193,7 +168,12 @@
           "bytes": 31232,
           "sha256": "8c8117732c63cb8be121c5ec444fea2665dfc02d317a8197240b01ea0d86df23"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Indicadores de daño",
+        "en": "Damage Indicators",
+        "pt": "Indicadores de dano"
+      }
     },
     {
       "id": "za4-crosshair",
@@ -235,7 +215,12 @@
           "bytes": 41472,
           "sha256": "0f228bd9a57b9770e1eb7ffd14245351130d9c99a24455fcc2036f0be4b06f44"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Mira ZA4",
+        "en": "ZA4 Crosshair",
+        "pt": "Mira ZA4"
+      }
     },
     {
       "id": "low-hp-veins",
@@ -280,7 +265,12 @@
           "bytes": 28672,
           "sha256": "f266bf1c7d2e3978a69113a07b64498b0102869914368f53cc97fe3a711c8e74"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Venas y viñeta",
+        "en": "Veins and Vignette",
+        "pt": "Veias e vinheta"
+      }
     },
     {
       "id": "blood-overlay",
@@ -323,7 +313,12 @@
           "bytes": 13824,
           "sha256": "9d675c1fc295a4db42c388621bcdab8e38d118fc91567aecd8386230030c7675"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Sangre superpuesta",
+        "en": "Blood Overlay",
+        "pt": "Sangue sobreposto"
+      }
     },
     {
       "id": "screen-blood-drops",
@@ -361,7 +356,12 @@
           "bytes": 20480,
           "sha256": "6371590140f3d27f4fcc9a9191a03c38ed1f4732373dcaf77611032f6ae8e2f1"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Flash y gotas",
+        "en": "Flash and Blood Drops",
+        "pt": "Flash e gotas"
+      }
     },
     {
       "id": "ammo-hud",
@@ -404,7 +404,12 @@
           "bytes": 2309,
           "sha256": "45db0deaa765d8b16689584fbec35c94bf0aa6fd6eb3d451ddb3989d0b2c3491"
         }
-      ]
+      ],
+      "titles": {
+        "es": "HUD de munición",
+        "en": "Ammo HUD",
+        "pt": "HUD de munição"
+      }
     },
     {
       "id": "weapon-selector",
@@ -442,7 +447,12 @@
           "bytes": 207360,
           "sha256": "526822741a5f9d87fbaec495ea22d1c0d983e24ae4836545c4646f975192cbb1"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Selector de armas",
+        "en": "Weapon Selector",
+        "pt": "Seletor de armas"
+      }
     },
     {
       "id": "visual-armor",
@@ -479,7 +489,12 @@
           "bytes": 20480,
           "sha256": "6e7a5833da215914a30a369add48c101c006defa4f4db7694345ba65ee7c84de"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Chaleco visual",
+        "en": "Visual Armor",
+        "pt": "Colete visual"
+      }
     },
     {
       "id": "ds-light-aura",
@@ -516,7 +531,12 @@
           "bytes": 14848,
           "sha256": "b5be34842bde49ba2dd2669cce1a861a1aa13f3c316d629bd939f54bfe6b61d9"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Aura de luz DS",
+        "en": "DS Light Aura",
+        "pt": "Aura de luz DS"
+      }
     },
     {
       "id": "blips-3d",
@@ -553,7 +573,12 @@
           "bytes": 433152,
           "sha256": "aba331f836dfa3bddbee5f8e7d6bd25d5de8d5294c12097869318ee3c8b47c2f"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Iconos 3D",
+        "en": "3D Blips",
+        "pt": "Ícones 3D"
+      }
     },
     {
       "id": "cpf-death-screen",
@@ -596,7 +621,12 @@
           "bytes": 165750,
           "sha256": "d1fcf331841264f18cb9d0807c55bd3334200246976f612e62d0004cc93bd9ac"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Pantalla de muerte CPF",
+        "en": "CPF Death Screen",
+        "pt": "Tela de morte CPF"
+      }
     },
     {
       "id": "head-marker",
@@ -633,7 +663,12 @@
           "bytes": 337920,
           "sha256": "915d111635bc120498dd37cbdf9b6d07abcfe02f99d19c93291a2b7821365878"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Marcador sobre jugadores",
+        "en": "Player Head Marker",
+        "pt": "Marcador sobre jogadores"
+      }
     },
     {
       "id": "l4d-hud",
@@ -670,7 +705,12 @@
           "bytes": 440832,
           "sha256": "1dc9c15793495c1ae38fbfca1cbc6e5802ed508c61e478d4226a73f9dc51344e"
         }
-      ]
+      ],
+      "titles": {
+        "es": "L4D HUD",
+        "en": "L4D HUD",
+        "pt": "L4D HUD"
+      }
     },
     {
       "id": "name-cflow",
@@ -713,7 +753,12 @@
           "bytes": 287744,
           "sha256": "7c2db77cd535a56b87a81d1c90457ef95a6f4908329e644ea4e475c46bfd387d"
         }
-      ]
+      ],
+      "titles": {
+        "es": "NameCFlow",
+        "en": "NameCFlow",
+        "pt": "NameCFlow"
+      }
     },
     {
       "id": "quit-notify",
@@ -750,7 +795,12 @@
           "bytes": 331776,
           "sha256": "98931683635f06f784ec524ccd1a57f26e5441e2fb9907f4f3f371285b530dc7"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Avisos de desconexión",
+        "en": "Disconnection Notices",
+        "pt": "Avisos de desconexão"
+      }
     },
     {
       "id": "mobile-detect",
@@ -787,7 +837,12 @@
           "bytes": 649216,
           "sha256": "aecb4a715f6c2f1204d0438a99728ae3192325c9a6b898edb082d87a0fff1c9a"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Detección de móviles",
+        "en": "Mobile Detection",
+        "pt": "Detecção de dispositivos móveis"
+      }
     },
     {
       "id": "location-widget",
@@ -835,7 +890,12 @@
           "bytes": 25600,
           "sha256": "e609515a58333d8286a2e9ed80b8b18058547421b5a38acf51ebd3026ddb8c8c"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Ubicación",
+        "en": "Location",
+        "pt": "Localização"
+      }
     },
     {
       "id": "fps-widget",
@@ -883,7 +943,12 @@
           "bytes": 15360,
           "sha256": "414affcf8ef291911139053291795dc583d1aff26b8da8ff87dc5b8c9736b00a"
         }
-      ]
+      ],
+      "titles": {
+        "es": "Contador de FPS",
+        "en": "FPS Counter",
+        "pt": "Contador de FPS"
+      }
     }
   ]
 }

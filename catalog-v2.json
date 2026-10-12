@@ -3,52 +3,12 @@
   "name": "José Store",
   "bridge": {
     "protocol": 1,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "source": "bridge/JoseModsBridge.lua",
-    "bytes": 6111,
-    "sha256": "27ef89569873bec1cc118ff735f20c6f7649043eea53aa5f11e363915194f2e4"
+    "bytes": 6116,
+    "sha256": "0633a4f43e9516f7ae596f949938bd94918bca6560eb9d77693b05c8ee485f72"
   },
   "mods": [
-    {
-      "id": "reload-all",
-      "version": "1.0.0",
-      "name": "Recargar scripts",
-      "type": "lua",
-      "entry": "reload_all.lua",
-      "description": {
-        "es": "Recarga todos los scripts de MoonLoader con Ctrl + R.",
-        "en": "Reloads all MoonLoader scripts with Ctrl + R.",
-        "pt": "Recarrega todos os scripts do MoonLoader com Ctrl + R."
-      },
-      "files": [
-        {
-          "path": "reload_all.lua",
-          "source": "packages/reload-all/1.0.0/reload_all.lua",
-          "bytes": 214,
-          "sha256": "d89673b7515290e3da308107b4b8fb698705fa206f449ea050f20c73c5888de2"
-        }
-      ]
-    },
-    {
-      "id": "auto-reboot",
-      "version": "1.0.0",
-      "name": "AutoReboot",
-      "type": "lua",
-      "entry": "AutoReboot.lua",
-      "description": {
-        "es": "Recarga automáticamente los scripts cuando cambian sus archivos.",
-        "en": "Automatically reloads scripts when their files change.",
-        "pt": "Recarrega os scripts automaticamente quando seus arquivos mudam."
-      },
-      "files": [
-        {
-          "path": "AutoReboot.lua",
-          "source": "packages/auto-reboot/1.0.0/AutoReboot.lua",
-          "bytes": 2543,
-          "sha256": "7664cc8dc7959e614a3b7493666e59102fc988873013e1bcda8d8cbed0f32476"
-        }
-      ]
-    },
     {
       "id": "fps-unlock",
       "version": "1.0.0",
@@ -68,7 +28,12 @@
           "sha256": "b1fa613b7355c964002304b3957b19ab4b70752b2bfccf51c5ed2ef543732ef4"
         }
       ],
-      "unloadable": false
+      "unloadable": false,
+      "titles": {
+        "es": "Desbloqueo de FPS",
+        "en": "FPS Unlock",
+        "pt": "Desbloqueio de FPS"
+      }
     },
     {
       "id": "halo-hitmarker",
@@ -94,6 +59,11 @@
       "module": {
         "group": "combat",
         "titleKey": "module.hitmarker"
+      },
+      "titles": {
+        "es": "Marcador de impactos",
+        "en": "Hitmarker",
+        "pt": "Marcador de impactos"
       }
     },
     {
@@ -120,6 +90,11 @@
       "module": {
         "group": "radar-clock",
         "titleKey": "module.clock"
+      },
+      "titles": {
+        "es": "Reloj",
+        "en": "Clock",
+        "pt": "Relógio"
       }
     }
   ]
