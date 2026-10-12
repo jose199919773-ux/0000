@@ -1,6 +1,3 @@
-script_name('Jose Store Bridge')
-script_author('José', 'Efeh')
-script_version('1.0.1')
 local ffi = require 'ffi'
 local bit = require 'bit'
 ffi.cdef[[
