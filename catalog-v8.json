@@ -870,7 +870,7 @@
     },
     {
       "id": "custom-radar",
-      "version": "1.0.10",
+      "version": "1.0.11",
       "name": "Tablet Radar",
       "type": "asi",
       "entry": "Jose_custom_radar.asi",
@@ -898,9 +898,9 @@
       "files": [
         {
           "path": "Jose_custom_radar.asi",
-          "source": "packages/custom-radar/1.0.10/Jose_custom_radar.asi",
+          "source": "packages/custom-radar/1.0.11/Jose_custom_radar.asi",
           "bytes": 1104384,
-          "sha256": "2c4db14184b81026e012f102bc0fb552feda046608a451e789b764fdff40473b"
+          "sha256": "cbde72f05dc46585a13dc7ada1233181b40cb9b0ba0d83a5a6c6ce92b5b04a22"
         }
       ],
       "titles": {
