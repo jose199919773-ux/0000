@@ -638,7 +638,7 @@
     {
       "id": "l4d-hud",
       "name": "L4D HUD",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -666,9 +666,33 @@
       "files": [
         {
           "path": "Jose_l4d_hud.asi",
-          "source": "packages/l4d-hud/1.0.1/Jose_l4d_hud.asi",
-          "bytes": 440832,
-          "sha256": "1dc9c15793495c1ae38fbfca1cbc6e5802ed508c61e478d4226a73f9dc51344e"
+          "source": "packages/l4d-hud/1.0.3/Jose_l4d_hud.asi",
+          "bytes": 446976,
+          "sha256": "d1a406dd28680e249083f2bcb8a8ca85452f2b5ecb2d0a6ce6d452dcb8a7222e"
+        },
+        {
+          "path": "assets/portrait_1.png",
+          "source": "packages/l4d-hud/1.0.3/assets/portrait_1.png",
+          "bytes": 4670,
+          "sha256": "25f2cf35b2292e8c6c4c3852ad3a6ebdb30d98d28d2fa0b582f4b5339eafcd48"
+        },
+        {
+          "path": "assets/portrait_2.png",
+          "source": "packages/l4d-hud/1.0.3/assets/portrait_2.png",
+          "bytes": 4288,
+          "sha256": "c1e408dae92c0bd3b40e48db716bb2d3b8312f584dfedbe86f668f360e5c9335"
+        },
+        {
+          "path": "assets/portrait_3.png",
+          "source": "packages/l4d-hud/1.0.3/assets/portrait_3.png",
+          "bytes": 4806,
+          "sha256": "2c26b76712804cf16eb7fdc04652ef00824bc771687fb0dffe4dc4aa18b19223"
+        },
+        {
+          "path": "assets/portrait_4.png",
+          "source": "packages/l4d-hud/1.0.3/assets/portrait_4.png",
+          "bytes": 4153,
+          "sha256": "4b840965a96f399cb3cd8918bad33e1b4defd6bab480ff68be196c8e688605e0"
         }
       ]
     },
