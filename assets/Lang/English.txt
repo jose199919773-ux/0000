@@ -2180,5 +2180,18 @@
   "controller.keyboard.description": "Opens with chat and a connected controller. Windows keyboard layout.",
   "controller.keyboard.color": "Keyboard color",
   "controller.keyboard.opacity": "Keyboard opacity",
-  "controller.keyboard.scale": "Keyboard size"
+  "controller.keyboard.scale": "Keyboard size",
+  "update.allow": "Allow checking for updates",
+  "update.allow_hint": "Checks when /hudremake opens. Disabled: updates are neither checked nor offered.",
+  "update.title": "Hud Remake update",
+  "update.installed": "Installed",
+  "update.available": "Available",
+  "update.ready": "Update ready. It will be installed when you close GTA/SA-MP.",
+  "update.close": "Close",
+  "update.downloading": "Downloading and verifying. You can continue using the game.",
+  "update.changes": "Changelog",
+  "update.after_exit": "Applies after the game closes. Your settings and modules will be preserved.",
+  "update.failed": "The update could not be prepared. Your files remain unchanged. You can try again.",
+  "update.accept": "Update",
+  "update.cancel": "Cancel"
 }
