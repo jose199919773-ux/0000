@@ -2190,7 +2190,7 @@
   "update.close": "Fechar",
   "update.downloading": "Baixando e verificando. Você pode continuar usando o jogo.",
   "update.changes": "Registro de alterações",
-  "update.after_exit": "Será aplicada ao fechar o jogo. Seus ajustes e módulos serão preservados.",
+  "update.after_exit": "Ao fechar o jogo, Hud Remake e os módulos instalados com novas versões serão atualizados. Seus ajustes e a ativação serão preservados.",
   "update.failed": "Não foi possível preparar a atualização. Seus arquivos continuam intactos. Você pode tentar novamente.",
   "update.accept": "Atualizar",
   "update.cancel": "Cancelar"

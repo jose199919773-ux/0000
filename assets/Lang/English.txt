@@ -2190,7 +2190,7 @@
   "update.close": "Close",
   "update.downloading": "Downloading and verifying. You can continue using the game.",
   "update.changes": "Changelog",
-  "update.after_exit": "Applies after the game closes. Your settings and modules will be preserved.",
+  "update.after_exit": "After the game closes, Hud Remake and installed modules with available updates will be updated. Settings and activation preferences are preserved.",
   "update.failed": "The update could not be prepared. Your files remain unchanged. You can try again.",
   "update.accept": "Update",
   "update.cancel": "Cancel"

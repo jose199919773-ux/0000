@@ -1063,7 +1063,7 @@
     },
     {
       "id": "controller-support",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "name": "Soporte de mando",
       "titles": {
         "es": "Soporte de mando",
@@ -1082,9 +1082,9 @@
       "files": [
         {
           "path": "JoseStore_Control.asi",
-          "source": "packages/controller-support/1.1.0/JoseStore_Control.asi",
-          "bytes": 1767424,
-          "sha256": "efba7e58bd2b4434956ba9631eb333327811ecbf387607b816632c793d7d7fe5"
+          "source": "packages/controller-support/1.1.1/JoseStore_Control.asi",
+          "bytes": 1768448,
+          "sha256": "d678a34957b77f6754d9189063bb1714449b6417980b55e44285727d46924933"
         }
       ],
       "module": {
