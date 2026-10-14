@@ -2164,5 +2164,6 @@
   "gtav.waypoint_custom": "Personalizar cor do waypoint",
   "hud.selector_tlou_line1": "Vida e munição no estilo TLOU",
   "hud.selector_l4d_line1": "Vida e equipamento no estilo L4D",
-  "hud.selector_module_line2": "Ajuste posição, tamanho e aparência"
+  "hud.selector_module_line2": "Ajuste posição, tamanho e aparência",
+  "store.controller_conflict": "Remova o ASI independente antes de ativar o app de controle."
 }

@@ -2164,5 +2164,6 @@
   "gtav.waypoint_custom": "Custom waypoint color",
   "hud.selector_tlou_line1": "TLOU-style health and ammunition",
   "hud.selector_l4d_line1": "L4D-style health and equipment",
-  "hud.selector_module_line2": "Adjust position, size and appearance"
+  "hud.selector_module_line2": "Adjust position, size and appearance",
+  "store.controller_conflict": "Remove the independent controller ASI before activating the controller app."
 }
