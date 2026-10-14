@@ -1063,7 +1063,7 @@
     },
     {
       "id": "controller-support",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "Soporte de mando",
       "titles": {
         "es": "Soporte de mando",
@@ -1075,16 +1075,16 @@
       "unloadable": true,
       "api": 8,
       "description": {
-        "es": "Control del juego, cursor, atajos y ajustes de mando dentro de Efeh.",
-        "en": "Game controls, cursor, shortcuts and controller settings inside Efeh.",
-        "pt": "Controles do jogo, cursor, atalhos e ajustes do controle no Efeh."
+        "es": "Control del juego, cursor, atajos y teclado de chat personalizable dentro de Efeh.",
+        "en": "Game controls, cursor, shortcuts and customizable chat keyboard inside Efeh.",
+        "pt": "Controles do jogo, cursor, atalhos e teclado de chat personalizável no Efeh."
       },
       "files": [
         {
           "path": "JoseStore_Control.asi",
-          "source": "packages/controller-support/1.0.0/JoseStore_Control.asi",
-          "bytes": 1755648,
-          "sha256": "a8807bbad7084f9272a4743af19cd523433c2ada2a5a0da9eb23bde2f565bd85"
+          "source": "packages/controller-support/1.1.0/JoseStore_Control.asi",
+          "bytes": 1767424,
+          "sha256": "efba7e58bd2b4434956ba9631eb333327811ecbf387607b816632c793d7d7fe5"
         }
       ],
       "module": {

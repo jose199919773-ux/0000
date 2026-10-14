@@ -2165,5 +2165,20 @@
   "hud.selector_tlou_line1": "Vida y munición estilo TLOU",
   "hud.selector_l4d_line1": "Vida y equipamiento estilo L4D",
   "hud.selector_module_line2": "Ajusta posición, tamaño y aspecto",
-  "store.controller_conflict": "Retira el ASI independiente antes de activar la app de control."
+  "store.controller_conflict": "Retira el ASI independiente antes de activar la app de control.",
+  "controller.keyboard.title": "Teclado del chat",
+  "controller.keyboard.hint": "Cruceta: elegir · A / Cruz: escribir · B / Círculo: cancelar",
+  "controller.keyboard.lower": "Minúsculas",
+  "controller.keyboard.upper": "Mayúsculas",
+  "controller.keyboard.letters": "Letras",
+  "controller.keyboard.symbols": "Símbolos",
+  "controller.keyboard.space": "Espacio",
+  "controller.keyboard.delete": "Borrar",
+  "controller.keyboard.cancel": "Cancelar",
+  "controller.keyboard.send": "Enviar",
+  "controller.keyboard.enabled": "Teclado virtual para el chat",
+  "controller.keyboard.description": "Se abre con el chat y un mando conectado. Distribución de Windows.",
+  "controller.keyboard.color": "Color del teclado",
+  "controller.keyboard.opacity": "Opacidad del teclado",
+  "controller.keyboard.scale": "Tamaño del teclado"
 }
