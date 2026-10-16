@@ -249,7 +249,7 @@
     {
       "id": "za4-crosshair",
       "name": "Mira ZA4",
-      "version": "1.0.12",
+      "version": "1.0.13",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -282,9 +282,9 @@
       "files": [
         {
           "path": "Jose_za4_crosshair.asi",
-          "source": "packages/za4-crosshair/1.0.12/Jose_za4_crosshair.asi",
+          "source": "packages/za4-crosshair/1.0.13/Jose_za4_crosshair.asi",
           "bytes": 59392,
-          "sha256": "1be5a58619c94898b6f29f1139f197d60a75c8268b1b9e79f6c1dfe55eb3b9f0"
+          "sha256": "d7fa5083b712a9d3350a16abd38d7a5e3cca3c61bb9858ed141b8a88f2dbd2c0"
         }
       ],
       "titles": {
@@ -294,16 +294,20 @@
       },
       "changes": {
         "es": [
-          "ZA4 permite ajustar la dinámica de las pistolas por separado: precisión, movimiento, disparo, apertura, agachado y velocidades de respuesta."
+          "ZA4 usa siempre la dinámica propia de 9mm, 9mm silenciada y Desert Eagle, sin casilla adicional ni dependencia de la dinámica general.",
+          "El indicador horizontal de munición es una barra recta; la curvatura se aplica únicamente al modo de arco."
         ],
         "en": [
-          "ZA4 adds separate pistol dynamics: accuracy, movement, firing, spread, crouching and response speeds."
+          "ZA4 always uses separate dynamics for the 9mm, silenced 9mm and Desert Eagle, without an extra checkbox or general-dynamics dependency.",
+          "The horizontal ammunition indicator is a straight bar; curvature applies only in arc mode."
         ],
         "pt": [
-          "ZA4 permite ajustar a dinâmica das pistolas separadamente: precisão, movimento, disparo, abertura, agachamento e velocidades de resposta."
+          "ZA4 usa sempre a dinâmica própria da 9mm, 9mm silenciada e Desert Eagle, sem caixa adicional nem dependência da dinâmica geral.",
+          "O indicador horizontal de munição é uma barra reta; a curvatura se aplica somente ao modo de arco."
         ],
         "ru": [
-          "ZA4 добавляет отдельную динамику пистолетов: точность, движение, стрельбу, разброс, приседание и скорость реакции."
+          "ZA4 всегда использует отдельную динамику для 9mm, 9mm с глушителем и Desert Eagle, без дополнительного переключателя и зависимости от общих настроек.",
+          "Горизонтальный индикатор боеприпасов отображается прямой полосой. Изгиб применяется только к дуге."
         ]
       },
       "locales": {
@@ -1171,7 +1175,7 @@
     },
     {
       "id": "custom-radar",
-      "version": "1.0.17",
+      "version": "1.0.18",
       "name": "Tablet Radar",
       "type": "asi",
       "entry": "Jose_custom_radar.asi",
@@ -1199,9 +1203,9 @@
       "files": [
         {
           "path": "Jose_custom_radar.asi",
-          "source": "packages/custom-radar/1.0.17/Jose_custom_radar.asi",
-          "bytes": 1119232,
-          "sha256": "be434e6cfbe6eeced4cbbdf2853fd3e234b4e6a6b2d41b1a840bde51484218c0"
+          "source": "packages/custom-radar/1.0.18/Jose_custom_radar.asi",
+          "bytes": 1117184,
+          "sha256": "ad6f962cc890ac1db1fd95b2998416b528e909576bb4d878991b80f6034f728b"
         }
       ],
       "titles": {
@@ -1211,16 +1215,16 @@
       },
       "changes": {
         "es": [
-          "Tablet Radar lee el ping local de SA-MP, corrige las barras de señal y elimina la línea inferior adicional y los controles de nombre de zona."
+          "Tablet Radar elimina máscaras de esquina, contornos interiores y rellenos duplicados que marcaban líneas sobre temas claros o transparentes."
         ],
         "en": [
-          "Tablet Radar reads the local SA-MP ping, fixes the signal bars and removes the extra bottom line and zone name controls."
+          "Tablet Radar removes corner masks, inset outlines and duplicate fills that produced seams on light or transparent themes."
         ],
         "pt": [
-          "Tablet Radar lê o ping local do SA-MP, corrige as barras de sinal e remove a linha inferior adicional e os controles de nome da zona."
+          "Tablet Radar remove máscaras de canto, contornos internos e preenchimentos duplicados que geravam linhas em temas claros ou transparentes."
         ],
         "ru": [
-          "Tablet Radar считывает локальный пинг SA-MP, исправляет индикатор сигнала и убирает лишнюю нижнюю линию и настройки названия района."
+          "Tablet Radar убирает маски углов, внутренние контуры и повторные заливки, создававшие швы на светлых и прозрачных темах."
         ]
       },
       "locales": {
