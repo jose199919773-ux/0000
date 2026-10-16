@@ -1,0 +1,512 @@
+{
+  "schema": 2,
+  "generated_utc": "2026-10-01T03:18:49Z",
+  "target": "Windows x86 (compatible con Windows x64), Windows 8+",
+  "installed_bytes": 25837251.0,
+  "sources": [
+    {
+      "name": "yt-dlp",
+      "version": "2026.08.19",
+      "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.08.19/yt-dlp_win_x86.zip",
+      "archive_sha256": "dc7c11f014af67f23d9fd989868048abedbce01709ff642a29eb3f7578b802f7"
+    },
+    {
+      "name": "QuickJS NG",
+      "version": "0.16.0",
+      "url": "https://github.com/quickjs-ng/quickjs/releases/download/v0.16.0/qjs-windows-x86.exe",
+      "archive_sha256": "904d38656497ca37fa59f786b8ec24fa7767a0baba522fde4301e38cfb47fecb"
+    },
+    {
+      "name": "FFmpeg",
+      "version": "9.0.1",
+      "url": "https://ffmpeg.org/releases/ffmpeg-9.0.1.tar.xz",
+      "archive_sha256": "cf38e0e28c7e5605942c4a77755349b0145804a397af37eb1fb4c77cb237f635"
+    },
+    {
+      "name": "LAME",
+      "version": "3.100",
+      "url": "https://downloads.sourceforge.net/project/lame/lame/3.100/lame-3.100.tar.gz",
+      "archive_sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e"
+    }
+  ],
+  "ffmpeg_build": {
+    "arch": "x86/i686",
+    "license": "GPL-2.0-or-later",
+    "static": true,
+    "network": false,
+    "encoder": "libmp3lame",
+    "formats": [
+      "m4a/aac",
+      "webm/matroska",
+      "ogg",
+      "opus",
+      "vorbis",
+      "mp3",
+      "wav",
+      "flac"
+    ],
+    "recipe": "BUILD-FFMPEG.txt"
+  },
+  "files": [
+    {
+      "path": "BUILD-FFMPEG.txt",
+      "size": 1731,
+      "sha256": "6bded3c7e3ed37afd541e4c4ac9c5e67730e92d70336adee84f9f65150cacedb"
+    },
+    {
+      "path": "ffmpeg.exe",
+      "size": 2511360,
+      "sha256": "88450bbfc190d231f2add6b9f2f1761e611fa5c74faf3a3a61eb001cbfc951ac"
+    },
+    {
+      "path": "licenses/ffmpeg/LICENSE.txt",
+      "size": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "licenses/lame/LICENSE.txt",
+      "size": 25284,
+      "sha256": "bfe4a52dc4645385f356a8e83cc54216a293e3b6f1cb4f79f5fc0277abf937fd"
+    },
+    {
+      "path": "licenses/quickjs/LICENSE.txt",
+      "size": 1212,
+      "sha256": "96f73f9d2a16c21a36b418f06073be26e7d6d5e7c1bc99756b21a4f2c74ef171"
+    },
+    {
+      "path": "licenses/yt-dlp/LICENSE.txt",
+      "size": 1211,
+      "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
+    },
+    {
+      "path": "qjs.exe",
+      "size": 1896453,
+      "sha256": "904d38656497ca37fa59f786b8ec24fa7767a0baba522fde4301e38cfb47fecb"
+    },
+    {
+      "path": "README.md",
+      "size": 2670,
+      "sha256": "1b0bfd3e9fa809df21fa373232b7bc04985aa4d7b63eaeb45f12a5ccae106a19"
+    },
+    {
+      "path": "yt-dlp/_internal/_asyncio.pyd",
+      "size": 56600,
+      "sha256": "e01fdb89380ebf58700f40dcebafcb37f24970c8ea1f33063bdea873b53e720d"
+    },
+    {
+      "path": "yt-dlp/_internal/_brotli.cp310-win32.pyd",
+      "size": 746496,
+      "sha256": "80a852e8ca0f01365a3ad3688e200976fc3b5977572924f7731481ce4f71fc15"
+    },
+    {
+      "path": "yt-dlp/_internal/_bz2.pyd",
+      "size": 72472,
+      "sha256": "b682e9e8152036bdebf4ca5410d3c0f88fa3272a969830f63c7b61bb1f0da89f"
+    },
+    {
+      "path": "yt-dlp/_internal/_ctypes.pyd",
+      "size": 108312,
+      "sha256": "f879f86bf65ce05ee3467df65c55b9837f9dffb0f024c350c9a9869a08609759"
+    },
+    {
+      "path": "yt-dlp/_internal/_decimal.pyd",
+      "size": 195864,
+      "sha256": "283aa604d532b6239aa8d8794c8d8a4f3a11c93dfbcef846315cfd74f5e07e2f"
+    },
+    {
+      "path": "yt-dlp/_internal/_elementtree.pyd",
+      "size": 114968,
+      "sha256": "afb9950d0b16254025f3c2de68c877381d3da57fefdb02504c21ee8d4c2e84e5"
+    },
+    {
+      "path": "yt-dlp/_internal/_hashlib.pyd",
+      "size": 49432,
+      "sha256": "f10c90062eaa68f41b1a6b34f3796e3ab8e0d765e595236e893cff9fad30116a"
+    },
+    {
+      "path": "yt-dlp/_internal/_lzma.pyd",
+      "size": 148248,
+      "sha256": "e1e346f8b9fa43ec5519166d92625168ebb642a70f52611545117631c74181bd"
+    },
+    {
+      "path": "yt-dlp/_internal/_multiprocessing.pyd",
+      "size": 29976,
+      "sha256": "91889bbf6dfadfc026276141a4260d7f2c19090fde9ee04490b9211dd3933eba"
+    },
+    {
+      "path": "yt-dlp/_internal/_overlapped.pyd",
+      "size": 42264,
+      "sha256": "2233c561a18d92adc2f4c56d6c55adfb4a01049e801bdd3bb2a03cee125f6e43"
+    },
+    {
+      "path": "yt-dlp/_internal/_queue.pyd",
+      "size": 28440,
+      "sha256": "763d333c80f4c11861c9210c4bd53feda24b5598ac9270391b2ec250bd52b636"
+    },
+    {
+      "path": "yt-dlp/_internal/_socket.pyd",
+      "size": 69912,
+      "sha256": "389d2b94a3562879f9e0a17cace1574ee308ac39a5d9f5659f885284c9b2d19e"
+    },
+    {
+      "path": "yt-dlp/_internal/_sqlite3.pyd",
+      "size": 72984,
+      "sha256": "8a703da286cdbc263fe28d0888c03bb899e73b4b7729c44a953cc6139f33e3be"
+    },
+    {
+      "path": "yt-dlp/_internal/_ssl.pyd",
+      "size": 141592,
+      "sha256": "69c76b8fe5c873d1a0dff493c3a3b88090b61ee648ad7681bc0581964465589e"
+    },
+    {
+      "path": "yt-dlp/_internal/_uuid.pyd",
+      "size": 22808,
+      "sha256": "7ed17311b391ffff58f073ecf71829f73629033458a54a435dc62014281a733c"
+    },
+    {
+      "path": "yt-dlp/_internal/base_library.zip",
+      "size": 880569,
+      "sha256": "2f5453b8154cfa1310139704e81101d516dd8f4c53b2e3b589ce77807dee29ca"
+    },
+    {
+      "path": "yt-dlp/_internal/certifi/cacert.pem",
+      "size": 240216,
+      "sha256": "9cc2a774b5198dcff14d9be1e66091f538975d867ce029a96bce15a55dfd730f"
+    },
+    {
+      "path": "yt-dlp/_internal/certifi/py.typed",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yt-dlp/_internal/charset_normalizer/cd.cp310-win32.pyd",
+      "size": 102400,
+      "sha256": "b300c8e0c76eebe022bb155ae59fb9e76486fdab25e28e64c861dcd2892bfe4e"
+    },
+    {
+      "path": "yt-dlp/_internal/charset_normalizer/md.cp310-win32.pyd",
+      "size": 165888,
+      "sha256": "75b57f1e143bcf00d96096d41100e32b4b4e3102457f368248379433a75cf5c9"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_ARC4.pyd",
+      "size": 9216,
+      "sha256": "610b1f77361c5469f269f27e7b8a3cfc021b5321113e0956d5c2d03afc5da9e4"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_chacha20.pyd",
+      "size": 10752,
+      "sha256": "6e59a231ead6218519c8b22d80324ea99e511a5d2213139300320116fa412489"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_pkcs1_decode.pyd",
+      "size": 10240,
+      "sha256": "febd2c136e53ba073aaea2dc2beb6eed7eac2ee48e03426126b2c122091492f3"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_raw_aes.pyd",
+      "size": 30208,
+      "sha256": "1bdea2b83fb92294fe072923aaf12a6b538737c8ba05ca7f0d51264affca29ad"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_raw_aesni.pyd",
+      "size": 12288,
+      "sha256": "596314ad00ea23381c579d7912906775c32876df394ebd9bcc40b4a065f81d6f"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_raw_arc2.pyd",
+      "size": 13824,
+      "sha256": "dc9edd95e3c43ffec5fab74abcf1f2749ea596fef6ab37b11010b521c1d4929c"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_raw_blowfish.pyd",
+      "size": 14336,
+      "sha256": "93f2c66a8db709de208f60ba3d5f824fde161659c757635215636d07553353fd"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_raw_cast.pyd",
+      "size": 20992,
+      "sha256": "ec44a120d1bc2a23c4a2aebf2dc8f882c706cd054f60b9e55bbd786c364d4a70"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_raw_cbc.pyd",
+      "size": 9728,
+      "sha256": "90da9da269933f30293d10439bf750a720e315adf5047131528d7142fb024973"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_raw_cfb.pyd",
+      "size": 9728,
+      "sha256": "eb5288c690f48606b61fff99b364d2af60cd070339816655b4094cc310c35a6c"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_raw_ctr.pyd",
+      "size": 11264,
+      "sha256": "601e279598f6c11342bc692161742246d43dbc6ec2f8fbd9d551c7c56c4f3edb"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_raw_des.pyd",
+      "size": 48640,
+      "sha256": "3ee4d216cb3447516afd32d68c5df6b357091c2d39c3887d9449d2af05b38dd0"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_raw_des3.pyd",
+      "size": 49152,
+      "sha256": "970e93dd677af408d224abb87051d10c4d86af5e847ac749beee78b0ec9d4733"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_raw_ecb.pyd",
+      "size": 8704,
+      "sha256": "f641f352e2e6bc09f25efd4ef27c2650c1845811d9bc7e29c75b9dc5a6ddc1ad"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_raw_eksblowfish.pyd",
+      "size": 15360,
+      "sha256": "c22c3bf2b1b7f69afdf07f0ea9db5a0550522a857778f1a6f82d2e4176a91b7a"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_raw_ocb.pyd",
+      "size": 12288,
+      "sha256": "7013d9d2262cfe440f97b4b204fdfa62b0fa8306bd0be1d2065662b7b215d976"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_raw_ofb.pyd",
+      "size": 9216,
+      "sha256": "41a60bf5e30da89be728a784ee3c552685564ee27fc1bfa41cc1c8c1ec6c9e52"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Cipher/_Salsa20.pyd",
+      "size": 10752,
+      "sha256": "b89e679f57aa97397363a28af0d8e68c3e743dcbb2f83c23d95f68f2294dc77e"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_BLAKE2b.pyd",
+      "size": 12800,
+      "sha256": "d11af373ed2c43895b4f96a714161f51b5026106e16d62a9a915b09a1e0deeba"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_BLAKE2s.pyd",
+      "size": 10752,
+      "sha256": "8b77fcf044832d16b96471fa7cd0693cade61b63d1c7c4fc406fb93c05928f56"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_ghash_clmul.pyd",
+      "size": 10240,
+      "sha256": "b13ac26481692d22feb602d71342b8d7a23d9ab2e4d1ef2810227df31985e4d3"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_ghash_portable.pyd",
+      "size": 10240,
+      "sha256": "579e1996ca33282b81868b206753f64015d82a8c8f709c4cbd20958fb3590fc4"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_keccak.pyd",
+      "size": 14848,
+      "sha256": "b201951eeff067bbc58b34a149ae38a01098dea072b176f468b35b53050eaa0f"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_MD2.pyd",
+      "size": 9728,
+      "sha256": "cc46a4dfefb55f71535c23f9d1ff61d848a40c9cbe011f9da975bb704fec7493"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_MD4.pyd",
+      "size": 11264,
+      "sha256": "b3201bfd5beb9594e860a1a66725c75d8f2a4445224ed316ddb2d52113e0f74d"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_MD5.pyd",
+      "size": 12288,
+      "sha256": "2c7188cdcb6a332e5e7e94bf7779e7cf2df9cfd80b42756a6d3de3cdfa747f0a"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_poly1305.pyd",
+      "size": 11776,
+      "sha256": "8a80d5644d7a9f0add1c03e9d608585314d35407da7d2e5b289e0119a8ed5ae4"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_RIPEMD160.pyd",
+      "size": 10752,
+      "sha256": "22197ebe74d905d7d03040eb230913707f4797ff072b73311740711d19aa97f8"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_SHA1.pyd",
+      "size": 14848,
+      "sha256": "dfc157239d3ba46a6e2e96cb5696409920f597ff51c7b16ff1fca2d1eb8a5b7f"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_SHA224.pyd",
+      "size": 17920,
+      "sha256": "8fd69d4dac0c665ef0327b5d6db9394322cb7bae30a7c829995d5166e419c539"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_SHA256.pyd",
+      "size": 17920,
+      "sha256": "700c18be7b4b033896d695bed7e52f35b9dfbfa6950a4dc45cebb4a8a82baf1f"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_SHA384.pyd",
+      "size": 38400,
+      "sha256": "738da551b64bc80e364b6d1dd6d2a87fc02f481c453873f0fa1910697bed2fd8"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Hash/_SHA512.pyd",
+      "size": 38912,
+      "sha256": "511f8eda8f7ef5d4a4069da854bdb3bd44d9c224de7aa9034f5a270b947b906a"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Math/_modexp.pyd",
+      "size": 27136,
+      "sha256": "f6b5de9f762cd0d832201da31d05fcbc7b496de9efd00335649fbd7b0cdad78b"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Protocol/_scrypt.pyd",
+      "size": 9728,
+      "sha256": "3f5ccf9405a6c37d9fdab581ae17e18009273020ab26ca8e2fee820ca98d0544"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/PublicKey/_curve25519.pyd",
+      "size": 17920,
+      "sha256": "4cb86c0bbc1081e62f7c6e233c03d2d5737554dc51620ffaebe6095aed5a22d1"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/PublicKey/_curve448.pyd",
+      "size": 39424,
+      "sha256": "a5bb48c856abf62b0e64613094dbfab4a32bd9d13e25f396f5d485f7feb008bf"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/PublicKey/_ec_ws.pyd",
+      "size": 716800,
+      "sha256": "c450c9a30bf3126b2e2a8d2c3a8ab52661d787971cf3cf14df00ff3c0f2153bb"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/PublicKey/_ed25519.pyd",
+      "size": 19968,
+      "sha256": "d8ba0938969c1ef3e4d8c4bd28d115fc12775cd0c303590ddfeb0fb78af884be"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/PublicKey/_ed448.pyd",
+      "size": 48128,
+      "sha256": "344dd1bae565f9f2c9fc5e0ad5c56322741e86e2c5a046e084f94c8837ad8fc4"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Util/_cpuid_c.pyd",
+      "size": 8704,
+      "sha256": "e6ae122a7d5145f6010e039e9c9970cf8964b5416fd3284637595ecec970a36f"
+    },
+    {
+      "path": "yt-dlp/_internal/Cryptodome/Util/_strxor.pyd",
+      "size": 8192,
+      "sha256": "f97ed230dd57233f9518c178470c487462193410f4655440d1b101126aa00f98"
+    },
+    {
+      "path": "yt-dlp/_internal/libcrypto-1_1.dll",
+      "size": 2276120,
+      "sha256": "47376d247ae6033bc30fee4e52043d3762c1c0c177e3ec27ca46eff4b95c69b0"
+    },
+    {
+      "path": "yt-dlp/_internal/libffi-7.dll",
+      "size": 29208,
+      "sha256": "0c7ec6de19c246a23756b8550e6178ac2394b1093e96d0f43789124149486f57"
+    },
+    {
+      "path": "yt-dlp/_internal/libssl-1_1.dll",
+      "size": 552216,
+      "sha256": "b7e16af3eff9ab0869cfe60c256394a70a867879b7f56544a724d6ac1ccfab88"
+    },
+    {
+      "path": "yt-dlp/_internal/pyexpat.pyd",
+      "size": 170264,
+      "sha256": "ebbde07afb2bb356cd400e97d8afb5abbc121cc0cc90f99bec9c3fa5ca60de14"
+    },
+    {
+      "path": "yt-dlp/_internal/python310.dll",
+      "size": 4143384,
+      "sha256": "b4893ed4890874d0466fca49960d765dd4c2d3948a47d69584f5cc51bbbfa4c9"
+    },
+    {
+      "path": "yt-dlp/_internal/select.pyd",
+      "size": 27416,
+      "sha256": "c942f16c17687e988434813e50d2fb222c528d0e56ccf2d15b13104676f93fc9"
+    },
+    {
+      "path": "yt-dlp/_internal/sqlite3.dll",
+      "size": 1196824,
+      "sha256": "376d80db08cec2c8873a4d5ebc7d83f50f26a43ebaa837020874c8586fd85975"
+    },
+    {
+      "path": "yt-dlp/_internal/THIRD_PARTY_LICENSES.txt",
+      "size": 248243,
+      "sha256": "5b7bc105c562b81b90d1a2cd5a8cc8b336ee107ae0ae81ce58450cd8b1bc2ad4"
+    },
+    {
+      "path": "yt-dlp/_internal/unicodedata.pyd",
+      "size": 1114904,
+      "sha256": "ac2966c1a1f1fbee97666e0aaade5ab960b445af3bacc1650b83ea8b637f2f7a"
+    },
+    {
+      "path": "yt-dlp/_internal/VCRUNTIME140.dll",
+      "size": 76168,
+      "sha256": "9faeaa45e8cc986af56f28350b38238b03c01c355e9564b849604b8d690919c5"
+    },
+    {
+      "path": "yt-dlp/_internal/websockets-16.1.1.dist-info/entry_points.txt",
+      "size": 51,
+      "sha256": "0e7867e1d9b912c23864c02c1e574617a0b005766b1979d1edc9cadbe5d1ef36"
+    },
+    {
+      "path": "yt-dlp/_internal/websockets-16.1.1.dist-info/INSTALLER",
+      "size": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "yt-dlp/_internal/websockets-16.1.1.dist-info/licenses/LICENSE",
+      "size": 1538,
+      "sha256": "0f44514998aca209d3482d10204a8adf2aa4296ff157a36a5c0922f2280632d3"
+    },
+    {
+      "path": "yt-dlp/_internal/websockets-16.1.1.dist-info/METADATA",
+      "size": 6980,
+      "sha256": "eeb0f8d5064cf8d1d16af09fe5447c2b7d0475a65525f8978f8839405951d1df"
+    },
+    {
+      "path": "yt-dlp/_internal/websockets-16.1.1.dist-info/RECORD",
+      "size": 7735,
+      "sha256": "86bf9755875fd1675a94deb2937dfa5a32618ad4c2a8564add99adfa74e5eb09"
+    },
+    {
+      "path": "yt-dlp/_internal/websockets-16.1.1.dist-info/REQUESTED",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "yt-dlp/_internal/websockets-16.1.1.dist-info/top_level.txt",
+      "size": 11,
+      "sha256": "08ca5d2a49712acbd980283296dc5458e1e26d95d9d6e60856971af71b10f079"
+    },
+    {
+      "path": "yt-dlp/_internal/websockets-16.1.1.dist-info/WHEEL",
+      "size": 97,
+      "sha256": "2ec9729d46b290daffd945e51128479e9091f4e077da58e89d77a093c7008e06"
+    },
+    {
+      "path": "yt-dlp/_internal/websockets/speedups.cp310-win32.pyd",
+      "size": 10240,
+      "sha256": "d9946eb6b0d617894771c728e54a726297fee32e51b9d73bec2fe81b69fb71d0"
+    },
+    {
+      "path": "yt-dlp/_internal/yt_dlp_ejs/yt/solver/core.min.js",
+      "size": 6945,
+      "sha256": "18da6ce0758b416e7ae645084f4f8801f9f9d59d6c477c05eaa0ff94ebd8cc00"
+    },
+    {
+      "path": "yt-dlp/_internal/yt_dlp_ejs/yt/solver/lib.min.js",
+      "size": 151561,
+      "sha256": "c55987fe697e5b9ee18830163f7af85327e9bb5c3e674b969d38c8d205eaa577"
+    },
+    {
+      "path": "yt-dlp/yt-dlp.exe",
+      "size": 6624512,
+      "sha256": "6d228e0fa9261041de9c58e371dcc8ce4007d27fcfe14ccff583851ac10cdf3a"
+    }
+  ]
+}
