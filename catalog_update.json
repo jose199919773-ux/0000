@@ -249,7 +249,7 @@
     {
       "id": "za4-crosshair",
       "name": "Mira ZA4",
-      "version": "1.0.11",
+      "version": "1.0.12",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -282,9 +282,9 @@
       "files": [
         {
           "path": "Jose_za4_crosshair.asi",
-          "source": "packages/za4-crosshair/1.0.11/Jose_za4_crosshair.asi",
-          "bytes": 55808,
-          "sha256": "a80ed5584376cd98714251de7be2191f2460eb65a565683d8548138527447417"
+          "source": "packages/za4-crosshair/1.0.12/Jose_za4_crosshair.asi",
+          "bytes": 59392,
+          "sha256": "1be5a58619c94898b6f29f1139f197d60a75c8268b1b9e79f6c1dfe55eb3b9f0"
         }
       ],
       "titles": {
@@ -294,16 +294,16 @@
       },
       "changes": {
         "es": [
-          "Arco de munición de ZA4 orientable en horizontal y curvatura ajustable hacia izquierda o derecha."
+          "ZA4 permite ajustar la dinámica de las pistolas por separado: precisión, movimiento, disparo, apertura, agachado y velocidades de respuesta."
         ],
         "en": [
-          "ZA4 ammunition arc supports horizontal orientation and adjustable left or right curvature."
+          "ZA4 adds separate pistol dynamics: accuracy, movement, firing, spread, crouching and response speeds."
         ],
         "pt": [
-          "Arco de munição ZA4 com orientação horizontal e curvatura ajustável para a esquerda ou direita."
+          "ZA4 permite ajustar a dinâmica das pistolas separadamente: precisão, movimento, disparo, abertura, agachamento e velocidades de resposta."
         ],
         "ru": [
-          "Дуга боеприпасов ZA4 поддерживает горизонтальную ориентацию и настройку изгиба влево или вправо."
+          "ZA4 добавляет отдельную динамику пистолетов: точность, движение, стрельбу, разброс, приседание и скорость реакции."
         ]
       },
       "locales": {
@@ -1171,7 +1171,7 @@
     },
     {
       "id": "custom-radar",
-      "version": "1.0.16",
+      "version": "1.0.17",
       "name": "Tablet Radar",
       "type": "asi",
       "entry": "Jose_custom_radar.asi",
@@ -1199,9 +1199,9 @@
       "files": [
         {
           "path": "Jose_custom_radar.asi",
-          "source": "packages/custom-radar/1.0.16/Jose_custom_radar.asi",
-          "bytes": 1144320,
-          "sha256": "fe08836aef46b249f9737712e3f9fd2cfbab8374d63c9e8dc2e1fe887137663d"
+          "source": "packages/custom-radar/1.0.17/Jose_custom_radar.asi",
+          "bytes": 1119232,
+          "sha256": "be434e6cfbe6eeced4cbbdf2853fd3e234b4e6a6b2d41b1a840bde51484218c0"
         }
       ],
       "titles": {
@@ -1211,16 +1211,16 @@
       },
       "changes": {
         "es": [
-          "Tablet Radar recupera el marco, reloj, batería, señal y botones inferiores del Lua, con once colores editables y señal según el ping."
+          "Tablet Radar lee el ping local de SA-MP, corrige las barras de señal y elimina la línea inferior adicional y los controles de nombre de zona."
         ],
         "en": [
-          "Tablet Radar restores the Lua frame, clock, battery, signal and bottom buttons, with eleven editable colors and ping-based signal bars."
+          "Tablet Radar reads the local SA-MP ping, fixes the signal bars and removes the extra bottom line and zone name controls."
         ],
         "pt": [
-          "Tablet Radar recupera moldura, relógio, bateria, sinal e botões inferiores do Lua, com onze cores editáveis e sinal conforme o ping."
+          "Tablet Radar lê o ping local do SA-MP, corrige as barras de sinal e remove a linha inferior adicional e os controles de nome da zona."
         ],
         "ru": [
-          "Tablet Radar повторяет рамку, часы, батарею, сигнал и нижние кнопки Lua: доступны одиннадцать цветов и уровень сигнала по пингу."
+          "Tablet Radar считывает локальный пинг SA-MP, исправляет индикатор сигнала и убирает лишнюю нижнюю линию и настройки названия района."
         ]
       },
       "locales": {
