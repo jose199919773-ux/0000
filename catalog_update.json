@@ -33,12 +33,18 @@
         "es": "Desbloqueo de FPS",
         "en": "FPS Unlock",
         "pt": "Desbloqueio de FPS"
+      },
+      "locales": {
+        "ru": {
+          "name": "Разблокировка FPS",
+          "description": "Разблокирует ограничение в 90 кадров в секунду в SA-MP."
+        }
       }
     },
     {
       "id": "halo-hitmarker",
-      "name": "Hitmarker",
-      "version": "1.0.8",
+      "name": "Marcador de impactos (hitmarker)",
+      "version": "1.0.9",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -66,31 +72,41 @@
       "files": [
         {
           "path": "Jose_hitmarker.asi",
-          "source": "packages/halo-hitmarker/1.0.8/Jose_hitmarker.asi",
-          "bytes": 18944,
-          "sha256": "16d9c7db27346564ef04e1934db422fbf7b3b5d063907a3788578cf1bff3445e"
+          "source": "packages/halo-hitmarker/1.0.9/Jose_hitmarker.asi",
+          "bytes": 20992,
+          "sha256": "aca4f585f7053bbc5d93e1c2495feabce2784839b2ab66184a894d8eeebbf662"
         }
       ],
       "titles": {
-        "es": "Marcador de impactos",
-        "en": "Hitmarker",
-        "pt": "Marcador de impactos"
+        "es": "Marcador de impactos (hitmarker)",
+        "en": "Impact marker (hitmarker)",
+        "pt": "Marcador de impactos (hitmarker)"
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Маркер попаданий (hitmarker)",
+          "description": "Маркеры попадания и убийства для SA-MP. Статический предварительный просмотр с дополнительной анимацией. Требуется Hud Remake.",
+          "summary": "Визуальное подтверждение попадания"
+        }
       }
     },
     {
       "id": "analog-clock",
-      "version": "1.2.3",
+      "version": "1.2.4",
       "name": "Reloj",
       "type": "asi",
       "entry": "Jose_analog_clock.asi",
@@ -102,9 +118,9 @@
       "files": [
         {
           "path": "Jose_analog_clock.asi",
-          "source": "packages/analog-clock/1.2.3/Jose_analog_clock.asi",
-          "bytes": 41472,
-          "sha256": "879e90ef543b4808eb20bd02570a7a32e59c911cdb10e663550899cbbb9bf374"
+          "source": "packages/analog-clock/1.2.4/Jose_analog_clock.asi",
+          "bytes": 48128,
+          "sha256": "9cbbea4c96bf9cc3503bf1352e7a8890df8ee6afcee7ca2c8da4246dd86b565b"
         }
       ],
       "unloadable": true,
@@ -144,20 +160,32 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Часы",
+          "description": "Аналоговые, цифровые или локальные системные часы с дополнительной датой, будильником и таймером. Настройте в «Дополнительно» > «Виджеты». Требуется Hud Remake.",
+          "title": "Часы",
+          "summary": "Аналоговый, цифровой, режим реального времени и таймер",
+          "groupName": "Виджеты"
+        }
       }
     },
     {
       "id": "damage-indicators",
       "name": "Indicadores de daño",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -186,9 +214,9 @@
       "files": [
         {
           "path": "Jose_damage_indicators.asi",
-          "source": "packages/damage-indicators/1.0.5/Jose_damage_indicators.asi",
-          "bytes": 31744,
-          "sha256": "c688e815cece0aa012830c425dc51bc70277e599a368a2b7ce47c0a4e927fd82"
+          "source": "packages/damage-indicators/1.0.6/Jose_damage_indicators.asi",
+          "bytes": 35840,
+          "sha256": "e36d00c2da04184bbc075a3c755d5aedfeae426ae21e3908a0afe5db25921b21"
         }
       ],
       "titles": {
@@ -198,20 +226,30 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Индикаторы повреждений",
+          "description": "Индикаторы направления урона и предупреждения, когда другие игроки SA-MP целятся в вас. Требуется Hud Remake.",
+          "summary": "Оповещения о направлении повреждения и прицеливании"
+        }
       }
     },
     {
       "id": "za4-crosshair",
       "name": "Mira ZA4",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -244,9 +282,9 @@
       "files": [
         {
           "path": "Jose_za4_crosshair.asi",
-          "source": "packages/za4-crosshair/1.0.8/Jose_za4_crosshair.asi",
-          "bytes": 41472,
-          "sha256": "823591d1396f80787d1aa6f6fcf1df38dc5237400da76702fb0daf626cdbcc6f"
+          "source": "packages/za4-crosshair/1.0.9/Jose_za4_crosshair.asi",
+          "bytes": 53248,
+          "sha256": "e2c84b75acb6a223133f82317f66d6116a35321d1ab47741fda5046922dd7556"
         }
       ],
       "titles": {
@@ -256,20 +294,31 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Перекрестие ZA4",
+          "description": "Динамическое перекрестие с обнаружением цели, фокусировкой и дугой боеприпасов. Требуется Hud Remake.",
+          "title": "Перекрестие ZA4",
+          "summary": "Динамическое перекрестие и дуга боеприпасов"
+        }
       }
     },
     {
       "id": "low-hp-veins",
       "name": "Venas y viñeta",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -299,15 +348,15 @@
       "files": [
         {
           "path": "assets/venas_image.png",
-          "source": "packages/low-hp-veins/1.0.3/assets/venas_image.png",
+          "source": "packages/low-hp-veins/1.0.4/assets/venas_image.png",
           "bytes": 749910,
           "sha256": "f431d3614768202ae1e5afa8af54e40331c589ef8f5910e2e6cbf7bf1202f6d3"
         },
         {
           "path": "Jose_low_hp_veins.asi",
-          "source": "packages/low-hp-veins/1.0.3/Jose_low_hp_veins.asi",
-          "bytes": 28672,
-          "sha256": "01430164cc47c84656bfe2e54658209c493192f75dc8658ca49ccf698bd3ea96"
+          "source": "packages/low-hp-veins/1.0.4/Jose_low_hp_veins.asi",
+          "bytes": 30208,
+          "sha256": "004f4a486b1493fd684c9f2e3919ba912e806d16ee3becd4193b9964b9628c2d"
         }
       ],
       "titles": {
@@ -317,20 +366,30 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Вены и виньетка",
+          "description": "Вены, виньетка, дыхание и сердцебиение в зависимости от здоровья игрока. Требуется Hud Remake.",
+          "summary": "Вены и виньетка при низком уровне здоровья"
+        }
       }
     },
     {
       "id": "blood-overlay",
       "name": "Sangre superpuesta",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -358,15 +417,15 @@
       "files": [
         {
           "path": "assets/damage1.png",
-          "source": "packages/blood-overlay/1.0.3/assets/damage1.png",
+          "source": "packages/blood-overlay/1.0.4/assets/damage1.png",
           "bytes": 402216,
           "sha256": "1710221ffe50880e11fb16e4ba58272c07b34a2a13ddf031e7953c7172e262d9"
         },
         {
           "path": "Jose_blood_overlay.asi",
-          "source": "packages/blood-overlay/1.0.3/Jose_blood_overlay.asi",
-          "bytes": 13824,
-          "sha256": "a79114f05ad716fd5e8b325d65a872930416f36af93a000f60573aca13e307c4"
+          "source": "packages/blood-overlay/1.0.4/Jose_blood_overlay.asi",
+          "bytes": 14848,
+          "sha256": "4a40cde32e200d3e9148661db7e3bef1e123a98509623f82bb66688f89874ad2"
         }
       ],
       "titles": {
@@ -376,20 +435,30 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Наложение крови",
+          "description": "Наложение крови на повреждения, с регулируемой интенсивностью и затуханием. Требуется Hud Remake.",
+          "summary": "Экранировать кровь при получении урона"
+        }
       }
     },
     {
       "id": "screen-blood-drops",
       "name": "Flash y gotas",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -418,9 +487,9 @@
       "files": [
         {
           "path": "Jose_screen_blood_drops.asi",
-          "source": "packages/screen-blood-drops/1.0.4/Jose_screen_blood_drops.asi",
-          "bytes": 20480,
-          "sha256": "2f7244ae1de160dd5347c2d134aa8b97a1b73338736d683a6d715e791e0b5222"
+          "source": "packages/screen-blood-drops/1.0.5/Jose_screen_blood_drops.asi",
+          "bytes": 21504,
+          "sha256": "97940b8f9a90283731ac402490443278436568aa04332c214b252823c4475b41"
         }
       ],
       "titles": {
@@ -430,20 +499,30 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Вспышка и капли крови",
+          "description": "Вспышка урона и анимированные капли крови с регулируемым капанием при низком уровне здоровья. Требуется Hud Remake.",
+          "summary": "Вспышки повреждений и капли крови"
+        }
       }
     },
     {
       "id": "ammo-hud",
       "name": "Ammo HUD",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -471,13 +550,13 @@
       "files": [
         {
           "path": "Jose_ammo_hud.asi",
-          "source": "packages/ammo-hud/1.0.3/Jose_ammo_hud.asi",
-          "bytes": 43520,
-          "sha256": "9155afac89736f5f97aa7dce942c93fd083c00f914661a4e67d95943f3c37212"
+          "source": "packages/ammo-hud/1.0.4/Jose_ammo_hud.asi",
+          "bytes": 47616,
+          "sha256": "342bb2581abd4f1230685c57bacb6e549a629a70815409a8a8900fc26b0e39df"
         },
         {
           "path": "assets/ammo.png",
-          "source": "packages/ammo-hud/1.0.3/assets/ammo.png",
+          "source": "packages/ammo-hud/1.0.4/assets/ammo.png",
           "bytes": 2309,
           "sha256": "45db0deaa765d8b16689584fbec35c94bf0aa6fd6eb3d451ddb3989d0b2c3491"
         }
@@ -489,20 +568,30 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Интерфейс боеприпасов",
+          "description": "Круглый индикатор боеприпасов и перезарядки с цветами, шрифтами, частицами и настраиваемым значком. Требуется обновленный Hud Remake.",
+          "summary": "Боеприпасы и ход перезарядки"
+        }
       }
     },
     {
       "id": "weapon-selector",
       "name": "Weapon Selector",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -531,9 +620,9 @@
       "files": [
         {
           "path": "Jose_weapon_selector.asi",
-          "source": "packages/weapon-selector/1.0.4/Jose_weapon_selector.asi",
-          "bytes": 207360,
-          "sha256": "e8693de313f68a6edb3f02decfbbc616126d23d8e3db18854bdc8cec5690c4ab"
+          "source": "packages/weapon-selector/1.0.5/Jose_weapon_selector.asi",
+          "bytes": 210432,
+          "sha256": "e8a43e067d62c16b227a64b9c40df546ff0b7e1cd895ff243e9f1cfdbcce52ad"
         }
       ],
       "titles": {
@@ -543,20 +632,30 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Селектор оружия",
+          "description": "Выбор оружия на основе категорий с сочетаниями клавиш и детектором гранат, газа, Молотова и ранца. Требуется обновленный Hud Remake.",
+          "summary": "Оружие и индикаторы взрывчатых веществ"
+        }
       }
     },
     {
       "id": "visual-armor",
       "name": "Visual Armor",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -584,9 +683,9 @@
       "files": [
         {
           "path": "Jose_visual_armor.asi",
-          "source": "packages/visual-armor/1.0.3/Jose_visual_armor.asi",
-          "bytes": 20480,
-          "sha256": "cdb52048c4e55c32926cad36e060db828bb6c77430b1112ed53d99b17d8c070e"
+          "source": "packages/visual-armor/1.0.4/Jose_visual_armor.asi",
+          "bytes": 22016,
+          "sha256": "aaaf2dde8fb5b6b9a86224aa6bb696331a1a7e7cdc311bd8af1a57a5eb167a14"
         }
       ],
       "titles": {
@@ -596,20 +695,30 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Визуальная броня",
+          "description": "Локальная визуальная броня с редактируемой моделью, положением, вращением, масштабом и цветом. Требуются модели SA-MP и обновленный Hud Remake.",
+          "summary": "Видимая броня на персонаже"
+        }
       }
     },
     {
       "id": "ds-light-aura",
       "name": "DS Light Aura",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -637,9 +746,9 @@
       "files": [
         {
           "path": "Jose_ds_light_aura.asi",
-          "source": "packages/ds-light-aura/1.0.2/Jose_ds_light_aura.asi",
-          "bytes": 15360,
-          "sha256": "9f5d356b9a74571dd575f2e38f43b5dd224340be930192ad96257d20964a63d6"
+          "source": "packages/ds-light-aura/1.0.3/Jose_ds_light_aura.asi",
+          "bytes": 16384,
+          "sha256": "cec1bbd54ee5aff40b1b626b8b4243fd87df3541e1f06f66fe1a63b53d8b07a8"
         }
       ],
       "titles": {
@@ -649,20 +758,30 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "DS Светлая Аура",
+          "description": "Аура и динамический свет при ходьбе с фиксированным цветом, цветом радуги или цветом, зависящим от здоровья. Требуется обновленный Hud Remake.",
+          "summary": "Аура и свет вокруг персонажа"
+        }
       }
     },
     {
       "id": "blips-3d",
       "name": "Blips 3D",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -690,9 +809,9 @@
       "files": [
         {
           "path": "Jose_blips_3d.asi",
-          "source": "packages/blips-3d/1.0.3/Jose_blips_3d.asi",
-          "bytes": 433152,
-          "sha256": "1a56d10f6c9f1f94f93bf5f36b3a71ab29be8ee5ea1a4d240bfa7f6d534ea707"
+          "source": "packages/blips-3d/1.0.4/Jose_blips_3d.asi",
+          "bytes": 434688,
+          "sha256": "b170226c76964fa408962d75beae06049acd8b80af5f6c897fd5d46aeb1bfbca"
         }
       ],
       "titles": {
@@ -702,20 +821,30 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "3D-блики",
+          "description": "Значки радара мира, метки расстояний и фильтры категорий.",
+          "summary": "Маркеры карты мира"
+        }
       }
     },
     {
       "id": "cpf-death-screen",
       "name": "CPF Death Screen",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -743,13 +872,13 @@
       "files": [
         {
           "path": "Jose_cpf_death_screen.asi",
-          "source": "packages/cpf-death-screen/1.0.5/Jose_cpf_death_screen.asi",
-          "bytes": 744960,
-          "sha256": "f6bc46a851fd00402f0c6d4cb34609fd5d3744f27e29efa97cf26f4ef4291e83"
+          "source": "packages/cpf-death-screen/1.0.6/Jose_cpf_death_screen.asi",
+          "bytes": 753664,
+          "sha256": "b2da0e88e1d0a5929abc8e4b937ed672d5f327d34ee573b532fc9e9365f37a9f"
         },
         {
           "path": "assets/CPF.mp3",
-          "source": "packages/cpf-death-screen/1.0.5/assets/CPF.mp3",
+          "source": "packages/cpf-death-screen/1.0.6/assets/CPF.mp3",
           "bytes": 165750,
           "sha256": "d1fcf331841264f18cb9d0807c55bd3334200246976f612e62d0004cc93bd9ac"
         }
@@ -761,20 +890,30 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Экран смерти CPF",
+          "description": "Карты смерти и убийства с анимацией, звуком и цветами.",
+          "summary": "Карты и переход при смерти"
+        }
       }
     },
     {
       "id": "head-marker",
       "name": "Head Marker",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -802,9 +941,9 @@
       "files": [
         {
           "path": "Jose_head_marker.asi",
-          "source": "packages/head-marker/1.0.4/Jose_head_marker.asi",
-          "bytes": 338432,
-          "sha256": "284006f3250b5499930b1778d1e81de16a1d43f286501e5e91866bf38e592891"
+          "source": "packages/head-marker/1.0.5/Jose_head_marker.asi",
+          "bytes": 339456,
+          "sha256": "ba59e51e441cccdb4432f49afdbea6942b4bf3f8cb746245e07bc385e7bdafaf"
         }
       ],
       "titles": {
@@ -814,20 +953,30 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Маркер головы игрока",
+          "description": "Маркеры над персонажами с цветами здоровья и регулируемым диапазоном.",
+          "summary": "Маркер над символами"
+        }
       }
     },
     {
       "id": "name-cflow",
       "name": "NameCFlow",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -861,9 +1010,9 @@
       "files": [
         {
           "path": "Jose_name_cflow.asi",
-          "source": "packages/name-cflow/1.0.2/Jose_name_cflow.asi",
-          "bytes": 288768,
-          "sha256": "ff3f8763fb4b48c6c3f67a0ff71c17d048ae61e66fcb4bea223334c6750fcca1"
+          "source": "packages/name-cflow/1.0.3/Jose_name_cflow.asi",
+          "bytes": 290816,
+          "sha256": "20d4cfdf4aadf85c92c350800d1dceac4c31764e8aa1a3a51ffed3d4e882a6ea"
         }
       ],
       "titles": {
@@ -873,20 +1022,31 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Имя CFlow",
+          "description": "Собственный текст GTA с положением, шрифтом, цветом RGB и контуром.",
+          "summary": "Имя с пользовательским шрифтом и стилем",
+          "groupName": "Виджеты"
+        }
       }
     },
     {
       "id": "quit-notify",
       "name": "Quit Notify",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -914,9 +1074,9 @@
       "files": [
         {
           "path": "Jose_quit_notify.asi",
-          "source": "packages/quit-notify/1.0.2/Jose_quit_notify.asi",
-          "bytes": 331776,
-          "sha256": "a83656f057c20b90b53da9618309ec867c661564865447108af9e995d9bfcf5b"
+          "source": "packages/quit-notify/1.0.3/Jose_quit_notify.asi",
+          "bytes": 332288,
+          "sha256": "bb1da81d5e67744130d018c208d743e7aae55be4946cbb6309343720596b2ebb"
         }
       ],
       "titles": {
@@ -926,20 +1086,30 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Уведомления об отключении",
+          "description": "Уведомления об отключении игрока, находящегося поблизости.  Только SA-MP.",
+          "summary": "Уведомления об отключении в SA-MP"
+        }
       }
     },
     {
       "id": "mobile-detect",
       "name": "Mobile Detect",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -967,9 +1137,9 @@
       "files": [
         {
           "path": "Jose_mobile_detect.asi",
-          "source": "packages/mobile-detect/1.0.3/Jose_mobile_detect.asi",
-          "bytes": 649216,
-          "sha256": "eabeb269dd10384fc9fc60cac9615a01dd2be8e0e8f23a3d26ee3d3b82d15824"
+          "source": "packages/mobile-detect/1.0.4/Jose_mobile_detect.asi",
+          "bytes": 650752,
+          "sha256": "28f4b547eb81e125f7ebbc19428b75961b679505e81276921f2fca33e48faba4"
         }
       ],
       "titles": {
@@ -979,19 +1149,29 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Обнаружение мобильных устройств",
+          "description": "Индикатор мобильных плееров на основе их синхронизации.  Только SA-MP.",
+          "summary": "Идентификация мобильных игроков в SA-MP"
+        }
       }
     },
     {
       "id": "custom-radar",
-      "version": "1.0.13",
+      "version": "1.0.14",
       "name": "Tablet Radar",
       "type": "asi",
       "entry": "Jose_custom_radar.asi",
@@ -1019,9 +1199,9 @@
       "files": [
         {
           "path": "Jose_custom_radar.asi",
-          "source": "packages/custom-radar/1.0.13/Jose_custom_radar.asi",
-          "bytes": 1104384,
-          "sha256": "269add219a8e40f34d32dcdf440b2d86284cd69078e08dc51c4a3b77b942bd12"
+          "source": "packages/custom-radar/1.0.14/Jose_custom_radar.asi",
+          "bytes": 1110016,
+          "sha256": "5e677d7760e4f51daaf7e03fe4d5ecb969019b4e4d4f92b02ab80e6c55771a09"
         }
       ],
       "titles": {
@@ -1031,19 +1211,29 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Планшетный радар",
+          "description": "Небольшой планшетный радар с игроками, значками и эффектами. Делится картой, установленной из Efeh Maps.",
+          "summary": "Радар в виде планшета с эффектами и многим другим"
+        }
       }
     },
     {
       "id": "location-widget",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "name": "Ubicación",
       "type": "asi",
       "entry": "Jose_location_widget.asi",
@@ -1083,9 +1273,9 @@
       "files": [
         {
           "path": "Jose_location_widget.asi",
-          "source": "packages/location-widget/1.0.8/Jose_location_widget.asi",
-          "bytes": 25600,
-          "sha256": "80417ecfacf06b6768c8a11ab10b8fd91687c24b004353f67c4d343e8f02cb02"
+          "source": "packages/location-widget/1.0.9/Jose_location_widget.asi",
+          "bytes": 27648,
+          "sha256": "298987e29c0f4579e1dae5daf38f84ba4b258bee579b7b730f4c96f793091244"
         }
       ],
       "titles": {
@@ -1095,19 +1285,31 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Местоположение",
+          "description": "Район, город или регион и необязательные координаты. Регулируемое положение, размер, цвета и видимость. Требуется Hud Remake.",
+          "title": "Местоположение",
+          "summary": "Район, город и координаты",
+          "groupName": "Виджеты"
+        }
       }
     },
     {
       "id": "fps-widget",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "name": "Contador de FPS",
       "type": "asi",
       "entry": "Jose_fps_widget.asi",
@@ -1147,9 +1349,9 @@
       "files": [
         {
           "path": "Jose_fps_widget.asi",
-          "source": "packages/fps-widget/1.0.2/Jose_fps_widget.asi",
-          "bytes": 15360,
-          "sha256": "1ed21ff3502db3087ad8db2f7f5bef2a3783792d7367c7cd41e7bb79c73508cf"
+          "source": "packages/fps-widget/1.0.3/Jose_fps_widget.asi",
+          "bytes": 15872,
+          "sha256": "a578c79ceb790fdb70af3b97ecabb9e68664f8fb710da1d1505c55a12c8bc40f"
         }
       ],
       "titles": {
@@ -1159,14 +1361,26 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Russian language support for the menu, tablet, modules and updater."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+        ],
+        "ru": [
+          "Русский язык для меню, планшета, модулей и обновлений."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Счетчик кадров в секунду",
+          "description": "FPS с усредненными показаниями и настраиваемым интервалом обновления. Настраиваемое положение, размер, цвет и фон. Требуется Hud Remake.",
+          "title": "Счетчик FPS",
+          "summary": "Кадров в секунду при стабильных показаниях",
+          "groupName": "Виджеты"
+        }
       }
     },
     {
@@ -1229,7 +1443,19 @@
         ],
         "pt": [
           "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+        ],
+        "ru": [
+          "Распространение с явным экспортом и отдельными приватными символами; API и настройки сохранены."
         ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Поддержка контроллера",
+          "description": "Элементы управления игрой, курсор, ярлыки и настраиваемая клавиатура чата внутри Efeh.",
+          "title": "Поддержка контроллера",
+          "summary": "Элементы управления и настройки контроллера",
+          "groupName": "Приложения"
+        }
       }
     }
   ]
