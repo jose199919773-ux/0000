@@ -44,7 +44,7 @@
     {
       "id": "halo-hitmarker",
       "name": "Marcador de impactos (hitmarker)",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -53,7 +53,7 @@
         "group": "combat",
         "titleKey": "module.hitmarker",
         "order": 20,
-        "icon": "",
+        "icon": "",
         "summary": {
           "es": "Confirmación visual de impactos",
           "en": "Visual hit confirmation",
@@ -72,9 +72,9 @@
       "files": [
         {
           "path": "Jose_hitmarker.asi",
-          "source": "packages/halo-hitmarker/1.0.9/Jose_hitmarker.asi",
-          "bytes": 20992,
-          "sha256": "aca4f585f7053bbc5d93e1c2495feabce2784839b2ab66184a894d8eeebbf662"
+          "source": "packages/halo-hitmarker/1.0.10/Jose_hitmarker.asi",
+          "bytes": 21504,
+          "sha256": "9d865c8d52a4f8dff2e72a8a64037bb2a24692467ed693a4031b6cd07691b2aa"
         }
       ],
       "titles": {
@@ -84,16 +84,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -106,7 +106,7 @@
     },
     {
       "id": "analog-clock",
-      "version": "1.2.4",
+      "version": "1.2.5",
       "name": "Reloj",
       "type": "asi",
       "entry": "Jose_analog_clock.asi",
@@ -118,9 +118,9 @@
       "files": [
         {
           "path": "Jose_analog_clock.asi",
-          "source": "packages/analog-clock/1.2.4/Jose_analog_clock.asi",
-          "bytes": 48128,
-          "sha256": "9cbbea4c96bf9cc3503bf1352e7a8890df8ee6afcee7ca2c8da4246dd86b565b"
+          "source": "packages/analog-clock/1.2.5/Jose_analog_clock.asi",
+          "bytes": 49664,
+          "sha256": "fdb2b68fa0c7938a7474e31913d94d5e9ae0f4ebc6facd811485b468b74ca6e3"
         }
       ],
       "unloadable": true,
@@ -160,16 +160,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -185,7 +185,7 @@
     {
       "id": "damage-indicators",
       "name": "Indicadores de daño",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -214,9 +214,9 @@
       "files": [
         {
           "path": "Jose_damage_indicators.asi",
-          "source": "packages/damage-indicators/1.0.6/Jose_damage_indicators.asi",
-          "bytes": 35840,
-          "sha256": "e36d00c2da04184bbc075a3c755d5aedfeae426ae21e3908a0afe5db25921b21"
+          "source": "packages/damage-indicators/1.0.7/Jose_damage_indicators.asi",
+          "bytes": 36864,
+          "sha256": "04baa47287871f0af0c674f0baddb52775feeb0af701a7a8a80d2ab5e76fd8e3"
         }
       ],
       "titles": {
@@ -226,16 +226,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -249,7 +249,7 @@
     {
       "id": "za4-crosshair",
       "name": "Mira ZA4",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -282,9 +282,9 @@
       "files": [
         {
           "path": "Jose_za4_crosshair.asi",
-          "source": "packages/za4-crosshair/1.0.9/Jose_za4_crosshair.asi",
-          "bytes": 53248,
-          "sha256": "e2c84b75acb6a223133f82317f66d6116a35321d1ab47741fda5046922dd7556"
+          "source": "packages/za4-crosshair/1.0.10/Jose_za4_crosshair.asi",
+          "bytes": 55296,
+          "sha256": "57cd656dd9b154352b095c0c72b7cef9c666e981536888909d0d328710ac0d37"
         }
       ],
       "titles": {
@@ -294,16 +294,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -318,7 +318,7 @@
     {
       "id": "low-hp-veins",
       "name": "Venas y viñeta",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -348,15 +348,15 @@
       "files": [
         {
           "path": "assets/venas_image.png",
-          "source": "packages/low-hp-veins/1.0.4/assets/venas_image.png",
+          "source": "packages/low-hp-veins/1.0.5/assets/venas_image.png",
           "bytes": 749910,
           "sha256": "f431d3614768202ae1e5afa8af54e40331c589ef8f5910e2e6cbf7bf1202f6d3"
         },
         {
           "path": "Jose_low_hp_veins.asi",
-          "source": "packages/low-hp-veins/1.0.4/Jose_low_hp_veins.asi",
-          "bytes": 30208,
-          "sha256": "004f4a486b1493fd684c9f2e3919ba912e806d16ee3becd4193b9964b9628c2d"
+          "source": "packages/low-hp-veins/1.0.5/Jose_low_hp_veins.asi",
+          "bytes": 30720,
+          "sha256": "0f55b954b7346c26a91501173ed2076616ac36b01de5cbbfb444b8b6c4e9c9e1"
         }
       ],
       "titles": {
@@ -366,16 +366,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -389,7 +389,7 @@
     {
       "id": "blood-overlay",
       "name": "Sangre superpuesta",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -417,15 +417,15 @@
       "files": [
         {
           "path": "assets/damage1.png",
-          "source": "packages/blood-overlay/1.0.4/assets/damage1.png",
+          "source": "packages/blood-overlay/1.0.5/assets/damage1.png",
           "bytes": 402216,
           "sha256": "1710221ffe50880e11fb16e4ba58272c07b34a2a13ddf031e7953c7172e262d9"
         },
         {
           "path": "Jose_blood_overlay.asi",
-          "source": "packages/blood-overlay/1.0.4/Jose_blood_overlay.asi",
-          "bytes": 14848,
-          "sha256": "4a40cde32e200d3e9148661db7e3bef1e123a98509623f82bb66688f89874ad2"
+          "source": "packages/blood-overlay/1.0.5/Jose_blood_overlay.asi",
+          "bytes": 15360,
+          "sha256": "8c8f217f012752f1c516c7bfb29322d732778aed410223dc8a33428b13d3312e"
         }
       ],
       "titles": {
@@ -435,16 +435,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -458,7 +458,7 @@
     {
       "id": "screen-blood-drops",
       "name": "Flash y gotas",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -487,9 +487,9 @@
       "files": [
         {
           "path": "Jose_screen_blood_drops.asi",
-          "source": "packages/screen-blood-drops/1.0.5/Jose_screen_blood_drops.asi",
-          "bytes": 21504,
-          "sha256": "97940b8f9a90283731ac402490443278436568aa04332c214b252823c4475b41"
+          "source": "packages/screen-blood-drops/1.0.6/Jose_screen_blood_drops.asi",
+          "bytes": 24064,
+          "sha256": "1dfc032b5615b60f36e6a38c756a16108135c843f0b6d870b8298ea930f30292"
         }
       ],
       "titles": {
@@ -499,16 +499,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -522,7 +522,7 @@
     {
       "id": "ammo-hud",
       "name": "Ammo HUD",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -550,13 +550,13 @@
       "files": [
         {
           "path": "Jose_ammo_hud.asi",
-          "source": "packages/ammo-hud/1.0.4/Jose_ammo_hud.asi",
-          "bytes": 47616,
-          "sha256": "342bb2581abd4f1230685c57bacb6e549a629a70815409a8a8900fc26b0e39df"
+          "source": "packages/ammo-hud/1.0.5/Jose_ammo_hud.asi",
+          "bytes": 49152,
+          "sha256": "36cba6231658308a6d1f8bd1c638039d67714994c5fbff51bddc20628e963202"
         },
         {
           "path": "assets/ammo.png",
-          "source": "packages/ammo-hud/1.0.4/assets/ammo.png",
+          "source": "packages/ammo-hud/1.0.5/assets/ammo.png",
           "bytes": 2309,
           "sha256": "45db0deaa765d8b16689584fbec35c94bf0aa6fd6eb3d451ddb3989d0b2c3491"
         }
@@ -568,16 +568,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -591,7 +591,7 @@
     {
       "id": "weapon-selector",
       "name": "Weapon Selector",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -620,9 +620,9 @@
       "files": [
         {
           "path": "Jose_weapon_selector.asi",
-          "source": "packages/weapon-selector/1.0.5/Jose_weapon_selector.asi",
-          "bytes": 210432,
-          "sha256": "e8a43e067d62c16b227a64b9c40df546ff0b7e1cd895ff243e9f1cfdbcce52ad"
+          "source": "packages/weapon-selector/1.0.6/Jose_weapon_selector.asi",
+          "bytes": 212480,
+          "sha256": "5387431ea0d62bd9c42bb59e924eefadd3bb60727ca15138c6689eea0a012f04"
         }
       ],
       "titles": {
@@ -632,16 +632,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -655,7 +655,7 @@
     {
       "id": "visual-armor",
       "name": "Visual Armor",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -683,9 +683,9 @@
       "files": [
         {
           "path": "Jose_visual_armor.asi",
-          "source": "packages/visual-armor/1.0.4/Jose_visual_armor.asi",
-          "bytes": 22016,
-          "sha256": "aaaf2dde8fb5b6b9a86224aa6bb696331a1a7e7cdc311bd8af1a57a5eb167a14"
+          "source": "packages/visual-armor/1.0.5/Jose_visual_armor.asi",
+          "bytes": 22528,
+          "sha256": "c88d8757d0619be0f47a6ff567bd01d8e97b0653abff035ad765d870d38a5692"
         }
       ],
       "titles": {
@@ -695,16 +695,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -718,7 +718,7 @@
     {
       "id": "ds-light-aura",
       "name": "DS Light Aura",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -746,9 +746,9 @@
       "files": [
         {
           "path": "Jose_ds_light_aura.asi",
-          "source": "packages/ds-light-aura/1.0.3/Jose_ds_light_aura.asi",
+          "source": "packages/ds-light-aura/1.0.4/Jose_ds_light_aura.asi",
           "bytes": 16384,
-          "sha256": "cec1bbd54ee5aff40b1b626b8b4243fd87df3541e1f06f66fe1a63b53d8b07a8"
+          "sha256": "865809bd68d763a9b5897082d42f8f6c3d8901c72f79f38466f325484949baa1"
         }
       ],
       "titles": {
@@ -758,16 +758,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -781,7 +781,7 @@
     {
       "id": "blips-3d",
       "name": "Blips 3D",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -809,9 +809,9 @@
       "files": [
         {
           "path": "Jose_blips_3d.asi",
-          "source": "packages/blips-3d/1.0.4/Jose_blips_3d.asi",
-          "bytes": 434688,
-          "sha256": "b170226c76964fa408962d75beae06049acd8b80af5f6c897fd5d46aeb1bfbca"
+          "source": "packages/blips-3d/1.0.5/Jose_blips_3d.asi",
+          "bytes": 435200,
+          "sha256": "3a3d54f7925ac4a1120922262bb7141fc8433da65675cba31e9959a7e494d14a"
         }
       ],
       "titles": {
@@ -821,16 +821,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -844,7 +844,7 @@
     {
       "id": "cpf-death-screen",
       "name": "CPF Death Screen",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -872,13 +872,13 @@
       "files": [
         {
           "path": "Jose_cpf_death_screen.asi",
-          "source": "packages/cpf-death-screen/1.0.6/Jose_cpf_death_screen.asi",
-          "bytes": 753664,
-          "sha256": "b2da0e88e1d0a5929abc8e4b937ed672d5f327d34ee573b532fc9e9365f37a9f"
+          "source": "packages/cpf-death-screen/1.0.7/Jose_cpf_death_screen.asi",
+          "bytes": 760320,
+          "sha256": "186670797a5ac7f92a73707f1aa102b88683d90391b665c797e72728c16711c7"
         },
         {
           "path": "assets/CPF.mp3",
-          "source": "packages/cpf-death-screen/1.0.6/assets/CPF.mp3",
+          "source": "packages/cpf-death-screen/1.0.7/assets/CPF.mp3",
           "bytes": 165750,
           "sha256": "d1fcf331841264f18cb9d0807c55bd3334200246976f612e62d0004cc93bd9ac"
         }
@@ -890,16 +890,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -913,7 +913,7 @@
     {
       "id": "head-marker",
       "name": "Head Marker",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -941,9 +941,9 @@
       "files": [
         {
           "path": "Jose_head_marker.asi",
-          "source": "packages/head-marker/1.0.5/Jose_head_marker.asi",
-          "bytes": 339456,
-          "sha256": "ba59e51e441cccdb4432f49afdbea6942b4bf3f8cb746245e07bc385e7bdafaf"
+          "source": "packages/head-marker/1.0.6/Jose_head_marker.asi",
+          "bytes": 339968,
+          "sha256": "8d6492801596931d5a76f31a2c51770837c047db2338eddc638484617b5a6cee"
         }
       ],
       "titles": {
@@ -953,16 +953,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -976,7 +976,7 @@
     {
       "id": "name-cflow",
       "name": "NameCFlow",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -1010,9 +1010,9 @@
       "files": [
         {
           "path": "Jose_name_cflow.asi",
-          "source": "packages/name-cflow/1.0.3/Jose_name_cflow.asi",
-          "bytes": 290816,
-          "sha256": "20d4cfdf4aadf85c92c350800d1dceac4c31764e8aa1a3a51ffed3d4e882a6ea"
+          "source": "packages/name-cflow/1.0.4/Jose_name_cflow.asi",
+          "bytes": 292352,
+          "sha256": "6bee1564e8acb294c5dc2aece9923f949371d746f4e9a6543294f056237410e9"
         }
       ],
       "titles": {
@@ -1022,16 +1022,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -1046,7 +1046,7 @@
     {
       "id": "quit-notify",
       "name": "Quit Notify",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -1074,9 +1074,9 @@
       "files": [
         {
           "path": "Jose_quit_notify.asi",
-          "source": "packages/quit-notify/1.0.3/Jose_quit_notify.asi",
+          "source": "packages/quit-notify/1.0.4/Jose_quit_notify.asi",
           "bytes": 332288,
-          "sha256": "bb1da81d5e67744130d018c208d743e7aae55be4946cbb6309343720596b2ebb"
+          "sha256": "55a283f9d3bca251a1ab367c09ead530c1f6988249385111248f46fb496dcb25"
         }
       ],
       "titles": {
@@ -1086,16 +1086,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -1109,7 +1109,7 @@
     {
       "id": "mobile-detect",
       "name": "Mobile Detect",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -1137,9 +1137,9 @@
       "files": [
         {
           "path": "Jose_mobile_detect.asi",
-          "source": "packages/mobile-detect/1.0.4/Jose_mobile_detect.asi",
+          "source": "packages/mobile-detect/1.0.5/Jose_mobile_detect.asi",
           "bytes": 650752,
-          "sha256": "28f4b547eb81e125f7ebbc19428b75961b679505e81276921f2fca33e48faba4"
+          "sha256": "f32d10963e62cf0a35acb336ea2c4c23689700b3ff5d9313ba003cc87c550be5"
         }
       ],
       "titles": {
@@ -1149,16 +1149,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -1171,7 +1171,7 @@
     },
     {
       "id": "custom-radar",
-      "version": "1.0.14",
+      "version": "1.0.15",
       "name": "Tablet Radar",
       "type": "asi",
       "entry": "Jose_custom_radar.asi",
@@ -1199,9 +1199,9 @@
       "files": [
         {
           "path": "Jose_custom_radar.asi",
-          "source": "packages/custom-radar/1.0.14/Jose_custom_radar.asi",
-          "bytes": 1110016,
-          "sha256": "5e677d7760e4f51daaf7e03fe4d5ecb969019b4e4d4f92b02ab80e6c55771a09"
+          "source": "packages/custom-radar/1.0.15/Jose_custom_radar.asi",
+          "bytes": 1111552,
+          "sha256": "47d56f6146e676373fa32beb89188599553b9757baacd2dd920014a106b3a1d4"
         }
       ],
       "titles": {
@@ -1211,16 +1211,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -1233,7 +1233,7 @@
     },
     {
       "id": "location-widget",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "name": "Ubicación",
       "type": "asi",
       "entry": "Jose_location_widget.asi",
@@ -1273,9 +1273,9 @@
       "files": [
         {
           "path": "Jose_location_widget.asi",
-          "source": "packages/location-widget/1.0.9/Jose_location_widget.asi",
-          "bytes": 27648,
-          "sha256": "298987e29c0f4579e1dae5daf38f84ba4b258bee579b7b730f4c96f793091244"
+          "source": "packages/location-widget/1.0.10/Jose_location_widget.asi",
+          "bytes": 28672,
+          "sha256": "49f41e8b454ac9002cf1ec6f3cb4b222541149946db3b7713ed3072dd121a80a"
         }
       ],
       "titles": {
@@ -1285,16 +1285,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -1309,7 +1309,7 @@
     },
     {
       "id": "fps-widget",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "name": "Contador de FPS",
       "type": "asi",
       "entry": "Jose_fps_widget.asi",
@@ -1349,9 +1349,9 @@
       "files": [
         {
           "path": "Jose_fps_widget.asi",
-          "source": "packages/fps-widget/1.0.3/Jose_fps_widget.asi",
-          "bytes": 15872,
-          "sha256": "a578c79ceb790fdb70af3b97ecabb9e68664f8fb710da1d1505c55a12c8bc40f"
+          "source": "packages/fps-widget/1.0.4/Jose_fps_widget.asi",
+          "bytes": 16384,
+          "sha256": "8be85a1ad4ede959a021994d2243d51d07279540b3618f73d27913e7c2f30268"
         }
       ],
       "titles": {
@@ -1361,16 +1361,16 @@
       },
       "changes": {
         "es": [
-          "Interfaz en ruso para el menú, la tablet, los módulos y las actualizaciones."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Russian language support for the menu, tablet, modules and updater."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Idioma russo para o menu, a tablet, os módulos e as atualizações."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Русский язык для меню, планшета, модулей и обновлений."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
@@ -1385,7 +1385,7 @@
     },
     {
       "id": "controller-support",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "name": "Soporte de mando",
       "titles": {
         "es": "Soporte de mando",
@@ -1404,9 +1404,9 @@
       "files": [
         {
           "path": "JoseStore_Control.asi",
-          "source": "packages/controller-support/1.1.2/JoseStore_Control.asi",
-          "bytes": 1767936,
-          "sha256": "e2c5ab2086d23eee7b929508b656fb0ce09a122dbf1ec50388717dd9280cb09d"
+          "source": "packages/controller-support/1.1.3/JoseStore_Control.asi",
+          "bytes": 1769472,
+          "sha256": "4115afd97d155013867db7ac57dd8011ef9285359d9be4b506054eb0003d8be0"
         }
       ],
       "module": {
@@ -1436,16 +1436,16 @@
       },
       "changes": {
         "es": [
-          "Distribución con exports explícitos y símbolos privados separados; API y ajustes conservados."
+          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
         ],
         "en": [
-          "Distribution with explicit exports and separate private symbols; API and settings preserved."
+          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
         ],
         "pt": [
-          "Distribuição com exports explícitos e símbolos privados separados; API e configurações preservadas."
+          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
         ],
         "ru": [
-          "Распространение с явным экспортом и отдельными приватными символами; API и настройки сохранены."
+          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
         ]
       },
       "locales": {
