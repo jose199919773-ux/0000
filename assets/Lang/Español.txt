@@ -1527,7 +1527,7 @@
   "damage.aimSpikeWidth": "Ancho de punta de apuntado",
   "damage.aimSpikeInward": "Punta de apuntado hacia dentro",
   "za4.enabled": "Activado",
-  "za4.hideOriginal": "Ocultar mirilla original",
+  "za4.hideOriginal": "Ocultar mira original",
   "za4.scaleWithRes": "Escalar con resolución",
   "za4.color": "Color",
   "za4.targetDetect": "Detectar objetivo",

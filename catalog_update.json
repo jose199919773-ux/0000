@@ -249,7 +249,7 @@
     {
       "id": "za4-crosshair",
       "name": "Mira ZA4",
-      "version": "1.0.10",
+      "version": "1.0.11",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -282,9 +282,9 @@
       "files": [
         {
           "path": "Jose_za4_crosshair.asi",
-          "source": "packages/za4-crosshair/1.0.10/Jose_za4_crosshair.asi",
-          "bytes": 55296,
-          "sha256": "57cd656dd9b154352b095c0c72b7cef9c666e981536888909d0d328710ac0d37"
+          "source": "packages/za4-crosshair/1.0.11/Jose_za4_crosshair.asi",
+          "bytes": 55808,
+          "sha256": "a80ed5584376cd98714251de7be2191f2460eb65a565683d8548138527447417"
         }
       ],
       "titles": {
@@ -294,16 +294,16 @@
       },
       "changes": {
         "es": [
-          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
+          "Arco de munición de ZA4 orientable en horizontal y curvatura ajustable hacia izquierda o derecha."
         ],
         "en": [
-          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
+          "ZA4 ammunition arc supports horizontal orientation and adjustable left or right curvature."
         ],
         "pt": [
-          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
+          "Arco de munição ZA4 com orientação horizontal e curvatura ajustável para a esquerda ou direita."
         ],
         "ru": [
-          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
+          "Дуга боеприпасов ZA4 поддерживает горизонтальную ориентацию и настройку изгиба влево или вправо."
         ]
       },
       "locales": {
@@ -1171,7 +1171,7 @@
     },
     {
       "id": "custom-radar",
-      "version": "1.0.15",
+      "version": "1.0.16",
       "name": "Tablet Radar",
       "type": "asi",
       "entry": "Jose_custom_radar.asi",
@@ -1199,9 +1199,9 @@
       "files": [
         {
           "path": "Jose_custom_radar.asi",
-          "source": "packages/custom-radar/1.0.15/Jose_custom_radar.asi",
-          "bytes": 1111552,
-          "sha256": "47d56f6146e676373fa32beb89188599553b9757baacd2dd920014a106b3a1d4"
+          "source": "packages/custom-radar/1.0.16/Jose_custom_radar.asi",
+          "bytes": 1144320,
+          "sha256": "fe08836aef46b249f9737712e3f9fd2cfbab8374d63c9e8dc2e1fe887137663d"
         }
       ],
       "titles": {
@@ -1211,16 +1211,16 @@
       },
       "changes": {
         "es": [
-          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
+          "Tablet Radar recupera el marco, reloj, batería, señal y botones inferiores del Lua, con once colores editables y señal según el ping."
         ],
         "en": [
-          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
+          "Tablet Radar restores the Lua frame, clock, battery, signal and bottom buttons, with eleven editable colors and ping-based signal bars."
         ],
         "pt": [
-          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
+          "Tablet Radar recupera moldura, relógio, bateria, sinal e botões inferiores do Lua, com onze cores editáveis e sinal conforme o ping."
         ],
         "ru": [
-          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
+          "Tablet Radar повторяет рамку, часы, батарею, сигнал и нижние кнопки Lua: доступны одиннадцать цветов и уровень сигнала по пингу."
         ]
       },
       "locales": {
