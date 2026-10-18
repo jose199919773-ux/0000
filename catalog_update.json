@@ -1389,7 +1389,7 @@
     },
     {
       "id": "controller-support",
-      "version": "1.1.7",
+      "version": "1.1.8",
       "name": "Soporte de mando",
       "titles": {
         "es": "Soporte de mando",
@@ -1408,9 +1408,9 @@
       "files": [
         {
           "path": "JoseStore_Control.asi",
-          "source": "packages/controller-support/1.1.7/JoseStore_Control.asi",
+          "source": "packages/controller-support/1.1.8/JoseStore_Control.asi",
           "bytes": 1784832,
-          "sha256": "6368c5d595d45b0e89912474bbe191e0069db8328404f9b356071e92aaadd990"
+          "sha256": "6e15409f3747cd17b6f81b5b4f60cab3efc581e8beb2d919867fa09dee535445"
         }
       ],
       "module": {
@@ -1440,16 +1440,16 @@
       },
       "changes": {
         "es": [
-          "Soporte Control: atajos de teclado con uno o varios botones y prioridad correcta al soltar combinaciones."
+          "Soporte Control: entrar de pasajero se asigna debajo de entrar/salir del vehículo, con la misma fila y botón para quitar la asignación."
         ],
         "pt": [
-          "Suporte a controle: atalhos de teclado com um ou mais botões e prioridade correta ao soltar combinações."
+          "Suporte a controle: entrar como passageiro aparece abaixo de entrar/sair do veículo, com a mesma linha de atribuição e botão para remover."
         ],
         "en": [
-          "Controller support: keyboard shortcuts with one or more buttons and correct priority when releasing combinations."
+          "Controller support: enter as passenger now appears directly below enter/exit vehicle, with the same binding row and clear button."
         ],
         "ru": [
-          "Поддержка геймпада: назначение клавиш одному или нескольким кнопкам и правильный приоритет при отпускании сочетаний."
+          "Поддержка геймпада: посадка пассажиром расположена под входом/выходом из транспорта с такой же строкой назначения и кнопкой очистки."
         ]
       },
       "locales": {
