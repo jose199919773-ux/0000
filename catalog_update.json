@@ -1389,7 +1389,7 @@
     },
     {
       "id": "controller-support",
-      "version": "1.1.5",
+      "version": "1.1.6",
       "name": "Soporte de mando",
       "titles": {
         "es": "Soporte de mando",
@@ -1408,9 +1408,9 @@
       "files": [
         {
           "path": "JoseStore_Control.asi",
-          "source": "packages/controller-support/1.1.5/JoseStore_Control.asi",
-          "bytes": 1772544,
-          "sha256": "505923ce4bf727f483b75b7be05f0806f11682941c3b265960bfcb795a194ad4"
+          "source": "packages/controller-support/1.1.6/JoseStore_Control.asi",
+          "bytes": 1784832,
+          "sha256": "238c5e3ee5501aff3aee93f56597074619c51f61dd274980af2b02a2c5f5facd"
         }
       ],
       "module": {
@@ -1440,16 +1440,16 @@
       },
       "changes": {
         "es": [
-          "El botón del mando abre y cierra /efeh con una pulsación."
-        ],
-        "en": [
-          "The controller button opens and closes /efeh with one press."
+          "Soporte Control: atajos personalizados para asociar una tecla a uno o varios botones, con ejemplos de pasajero, Y, N, 2, H y recarga."
         ],
         "pt": [
-          "O botão do controle abre e fecha /efeh com um toque."
+          "Suporte a controle: atalhos personalizados para associar uma tecla a um ou mais botões, com exemplos de passageiro, Y, N, 2, H e recarga."
+        ],
+        "en": [
+          "Controller support: custom keyboard shortcuts with one or more controller buttons, including passenger, Y, N, 2, H and reload examples."
         ],
         "ru": [
-          "Кнопка геймпада открывает и закрывает /efeh одним нажатием."
+          "Поддержка геймпада: назначение клавиши одному или нескольким кнопкам; примеры для пассажира, Y, N, 2, H и перезарядки."
         ]
       },
       "locales": {
