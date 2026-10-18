@@ -2219,5 +2219,13 @@
   "update.network_error": "La conexión falló. Comprueba el acceso a Internet y vuelve a intentarlo.",
   "update.helper_error": "No se pudo iniciar el instalador. Comprueba los permisos de la carpeta y el historial de bloqueos de seguridad.",
   "update.files_error": "No se pudieron guardar o verificar los archivos. Comprueba los permisos y el espacio disponible.",
-  "update.error_code": "Código"
+  "update.error_code": "Código",
+  "controller.usb.standard": "Numerado estándar",
+  "controller.usb.playstation": "PlayStation USB (12 botones)",
+  "controller.usb.layout": "Distribución USB",
+  "controller.usb.stick": "Stick derecho",
+  "controller.usb.detect": "Detectar ejes del stick derecho",
+  "controller.usb.move": "Mueve solo el stick derecho en círculos durante cinco segundos.",
+  "controller.usb.detected": "Ejes detectados. Suelta el stick y comprueba que X e Y vuelvan a cero.",
+  "controller.usb.ambiguous": "No se detectaron dos ejes claros. Repite moviendo solo el stick derecho."
 }

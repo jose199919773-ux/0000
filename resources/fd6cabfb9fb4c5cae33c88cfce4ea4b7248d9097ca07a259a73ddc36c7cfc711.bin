@@ -2219,5 +2219,13 @@
   "update.network_error": "Ошибка подключения. Проверьте доступ в Интернет и повторите попытку.",
   "update.helper_error": "Не удалось запустить установщик. Проверьте права на папку и журнал блокировок защиты.",
   "update.files_error": "Не удалось сохранить или проверить файлы. Проверьте права доступа и свободное место.",
-  "update.error_code": "Код"
+  "update.error_code": "Код",
+  "controller.usb.standard": "Стандартная нумерация",
+  "controller.usb.playstation": "PlayStation USB (12 кнопок)",
+  "controller.usb.layout": "Раскладка кнопок USB",
+  "controller.usb.stick": "Правый стик",
+  "controller.usb.detect": "Определить оси правого стика",
+  "controller.usb.move": "Вращайте только правый стик в течение пяти секунд.",
+  "controller.usb.detected": "Оси определены. Отпустите стик и проверьте, что X и Y вернулись к нулю.",
+  "controller.usb.ambiguous": "Не удалось выделить две оси. Повторите, двигая только правый стик."
 }

@@ -2219,5 +2219,13 @@
   "update.network_error": "A conexão falhou. Verifique o acesso à Internet e tente novamente.",
   "update.helper_error": "Não foi possível iniciar o instalador. Verifique as permissões da pasta e o histórico de bloqueios de segurança.",
   "update.files_error": "Não foi possível salvar ou verificar os arquivos. Verifique as permissões e o espaço disponível.",
-  "update.error_code": "Código"
+  "update.error_code": "Código",
+  "controller.usb.standard": "Numerado padrão",
+  "controller.usb.playstation": "PlayStation USB (12 botões)",
+  "controller.usb.layout": "Layout dos botões USB",
+  "controller.usb.stick": "Analógico direito",
+  "controller.usb.detect": "Detectar eixos do analógico direito",
+  "controller.usb.move": "Mova apenas o analógico direito em círculos por cinco segundos.",
+  "controller.usb.detected": "Eixos detectados. Solte o analógico e confira se X e Y voltam a zero.",
+  "controller.usb.ambiguous": "Não foram detectados dois eixos claros. Tente novamente movendo apenas o analógico direito."
 }

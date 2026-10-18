@@ -1389,7 +1389,7 @@
     },
     {
       "id": "controller-support",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "name": "Soporte de mando",
       "titles": {
         "es": "Soporte de mando",
@@ -1408,9 +1408,9 @@
       "files": [
         {
           "path": "JoseStore_Control.asi",
-          "source": "packages/controller-support/1.1.3/JoseStore_Control.asi",
-          "bytes": 1769472,
-          "sha256": "4115afd97d155013867db7ac57dd8011ef9285359d9be4b506054eb0003d8be0"
+          "source": "packages/controller-support/1.1.4/JoseStore_Control.asi",
+          "bytes": 1772544,
+          "sha256": "8fca184b9ceeb4348651d5faa9607814a24e0b5f57dcf84b843566321f33fcf1"
         }
       ],
       "module": {
@@ -1440,16 +1440,16 @@
       },
       "changes": {
         "es": [
-          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
+          "Soporte Control: scoreboard por pulsación sin parpadeo, correcciones visuales de hombros y gatillos en los cuatro diseños, distribución USB PlayStation y detección guiada de ejes."
         ],
         "en": [
-          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
+          "Controller support: toggle scoreboard without flickering, corrected shoulder and trigger visuals in all four styles, PlayStation USB layout and guided axis detection."
         ],
         "pt": [
-          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
+          "Suporte a controle: placar por toque sem piscar, correção visual dos botões superiores nos quatro estilos, layout USB PlayStation e detecção guiada dos eixos."
         ],
         "ru": [
-          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
+          "Поддержка геймпада: таблица игроков по нажатию без мерцания, исправлены верхние кнопки во всех четырёх стилях, раскладка PlayStation USB и определение осей."
         ]
       },
       "locales": {

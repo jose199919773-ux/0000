@@ -2219,5 +2219,13 @@
   "update.network_error": "The connection failed. Check Internet access and try again.",
   "update.helper_error": "The installer could not start. Check folder permissions and the security blocking history.",
   "update.files_error": "Files could not be saved or verified. Check permissions and available disk space.",
-  "update.error_code": "Code"
+  "update.error_code": "Code",
+  "controller.usb.standard": "Standard numbered",
+  "controller.usb.playstation": "PlayStation USB (12 buttons)",
+  "controller.usb.layout": "USB button layout",
+  "controller.usb.stick": "Right stick",
+  "controller.usb.detect": "Detect right stick axes",
+  "controller.usb.move": "Move only the right stick in circles for five seconds.",
+  "controller.usb.detected": "Axes detected. Release the stick and check that X and Y return to zero.",
+  "controller.usb.ambiguous": "Two clear axes were not detected. Try again moving only the right stick."
 }
