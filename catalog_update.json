@@ -1175,7 +1175,7 @@
     },
     {
       "id": "custom-radar",
-      "version": "1.0.18",
+      "version": "1.0.19",
       "name": "Tablet Radar",
       "type": "asi",
       "entry": "Jose_custom_radar.asi",
@@ -1203,9 +1203,9 @@
       "files": [
         {
           "path": "Jose_custom_radar.asi",
-          "source": "packages/custom-radar/1.0.18/Jose_custom_radar.asi",
-          "bytes": 1117184,
-          "sha256": "ad6f962cc890ac1db1fd95b2998416b528e909576bb4d878991b80f6034f728b"
+          "source": "packages/custom-radar/1.0.19/Jose_custom_radar.asi",
+          "bytes": 1119232,
+          "sha256": "c0c8b36f6b1a6f2c2a4836620b09b61c354d368a81121eee5840644aa596b4d5"
         }
       ],
       "titles": {
@@ -1215,16 +1215,16 @@
       },
       "changes": {
         "es": [
-          "Tablet Radar elimina máscaras de esquina, contornos interiores y rellenos duplicados que marcaban líneas sobre temas claros o transparentes."
+          "Los radares GTA V y Tablet Radar siguen la posición, orientación y velocidad del vehículo controlado, incluidos los RC, aunque el personaje permanezca atrás."
         ],
         "en": [
-          "Tablet Radar removes corner masks, inset outlines and duplicate fills that produced seams on light or transparent themes."
+          "GTA V and Tablet radars follow the controlled vehicle position, heading and speed, including RC vehicles, while the character stays behind."
         ],
         "pt": [
-          "Tablet Radar remove máscaras de canto, contornos internos e preenchimentos duplicados que geravam linhas em temas claros ou transparentes."
+          "Os radares GTA V e Tablet acompanham posição, direção e velocidade do veículo controlado, incluindo RC, mesmo com o personagem parado atrás."
         ],
         "ru": [
-          "Tablet Radar убирает маски углов, внутренние контуры и повторные заливки, создававшие швы на светлых и прозрачных темах."
+          "Радары GTA V и Tablet следуют за положением, направлением и скоростью управляемого транспорта, включая RC, пока персонаж остаётся на месте."
         ]
       },
       "locales": {
