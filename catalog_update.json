@@ -1175,7 +1175,7 @@
     },
     {
       "id": "custom-radar",
-      "version": "1.0.19",
+      "version": "1.0.20",
       "name": "Tablet Radar",
       "type": "asi",
       "entry": "Jose_custom_radar.asi",
@@ -1203,9 +1203,9 @@
       "files": [
         {
           "path": "Jose_custom_radar.asi",
-          "source": "packages/custom-radar/1.0.19/Jose_custom_radar.asi",
-          "bytes": 1119232,
-          "sha256": "c0c8b36f6b1a6f2c2a4836620b09b61c354d368a81121eee5840644aa596b4d5"
+          "source": "packages/custom-radar/1.0.20/Jose_custom_radar.asi",
+          "bytes": 1127424,
+          "sha256": "a36e5846baac95136c1d4deecee4ea7a9ef4cb8cc9e444989a08eeccfb08a05e"
         }
       ],
       "titles": {
@@ -1215,16 +1215,16 @@
       },
       "changes": {
         "es": [
-          "Los radares GTA V y Tablet Radar siguen la posición, orientación y velocidad del vehículo controlado, incluidos los RC, aunque el personaje permanezca atrás."
+          "Radares GTA V y Tablet: escala de iconos configurable por distancia y profundidad de cámara, independiente y desactivada por defecto."
         ],
         "en": [
-          "GTA V and Tablet radars follow the controlled vehicle position, heading and speed, including RC vehicles, while the character stays behind."
+          "GTA V and Tablet radars: independent, optional icon scaling by distance and camera depth, disabled by default."
         ],
         "pt": [
-          "Os radares GTA V e Tablet acompanham posição, direção e velocidade do veículo controlado, incluindo RC, mesmo com o personagem parado atrás."
+          "Radares GTA V e Tablet: escala dos ícones por distância e profundidade da câmera, independente e desativada por padrão."
         ],
         "ru": [
-          "Радары GTA V и Tablet следуют за положением, направлением и скоростью управляемого транспорта, включая RC, пока персонаж остаётся на месте."
+          "Радары GTA V и Tablet: независимое масштабирование значков по расстоянию и глубине камеры, по умолчанию отключено."
         ]
       },
       "locales": {
