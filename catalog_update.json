@@ -1389,7 +1389,7 @@
     },
     {
       "id": "controller-support",
-      "version": "1.1.6",
+      "version": "1.1.7",
       "name": "Soporte de mando",
       "titles": {
         "es": "Soporte de mando",
@@ -1408,9 +1408,9 @@
       "files": [
         {
           "path": "JoseStore_Control.asi",
-          "source": "packages/controller-support/1.1.6/JoseStore_Control.asi",
+          "source": "packages/controller-support/1.1.7/JoseStore_Control.asi",
           "bytes": 1784832,
-          "sha256": "238c5e3ee5501aff3aee93f56597074619c51f61dd274980af2b02a2c5f5facd"
+          "sha256": "6368c5d595d45b0e89912474bbe191e0069db8328404f9b356071e92aaadd990"
         }
       ],
       "module": {
@@ -1440,16 +1440,16 @@
       },
       "changes": {
         "es": [
-          "Soporte Control: atajos personalizados para asociar una tecla a uno o varios botones, con ejemplos de pasajero, Y, N, 2, H y recarga."
+          "Soporte Control: atajos de teclado con uno o varios botones y prioridad correcta al soltar combinaciones."
         ],
         "pt": [
-          "Suporte a controle: atalhos personalizados para associar uma tecla a um ou mais botões, com exemplos de passageiro, Y, N, 2, H e recarga."
+          "Suporte a controle: atalhos de teclado com um ou mais botões e prioridade correta ao soltar combinações."
         ],
         "en": [
-          "Controller support: custom keyboard shortcuts with one or more controller buttons, including passenger, Y, N, 2, H and reload examples."
+          "Controller support: keyboard shortcuts with one or more buttons and correct priority when releasing combinations."
         ],
         "ru": [
-          "Поддержка геймпада: назначение клавиши одному или нескольким кнопкам; примеры для пассажира, Y, N, 2, H и перезарядки."
+          "Поддержка геймпада: назначение клавиш одному или нескольким кнопкам и правильный приоритет при отпускании сочетаний."
         ]
       },
       "locales": {
