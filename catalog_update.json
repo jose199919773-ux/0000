@@ -1389,7 +1389,7 @@
     },
     {
       "id": "controller-support",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "name": "Soporte de mando",
       "titles": {
         "es": "Soporte de mando",
@@ -1408,9 +1408,9 @@
       "files": [
         {
           "path": "JoseStore_Control.asi",
-          "source": "packages/controller-support/1.1.4/JoseStore_Control.asi",
+          "source": "packages/controller-support/1.1.5/JoseStore_Control.asi",
           "bytes": 1772544,
-          "sha256": "8fca184b9ceeb4348651d5faa9607814a24e0b5f57dcf84b843566321f33fcf1"
+          "sha256": "505923ce4bf727f483b75b7be05f0806f11682941c3b265960bfcb795a194ad4"
         }
       ],
       "module": {
@@ -1440,16 +1440,16 @@
       },
       "changes": {
         "es": [
-          "Soporte Control: scoreboard por pulsación sin parpadeo, correcciones visuales de hombros y gatillos en los cuatro diseños, distribución USB PlayStation y detección guiada de ejes."
+          "El botón del mando abre y cierra /efeh con una pulsación."
         ],
         "en": [
-          "Controller support: toggle scoreboard without flickering, corrected shoulder and trigger visuals in all four styles, PlayStation USB layout and guided axis detection."
+          "The controller button opens and closes /efeh with one press."
         ],
         "pt": [
-          "Suporte a controle: placar por toque sem piscar, correção visual dos botões superiores nos quatro estilos, layout USB PlayStation e detecção guiada dos eixos."
+          "O botão do controle abre e fecha /efeh com um toque."
         ],
         "ru": [
-          "Поддержка геймпада: таблица игроков по нажатию без мерцания, исправлены верхние кнопки во всех четырёх стилях, раскладка PlayStation USB и определение осей."
+          "Кнопка геймпада открывает и закрывает /efeh одним нажатием."
         ]
       },
       "locales": {

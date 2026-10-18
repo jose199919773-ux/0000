@@ -2227,5 +2227,8 @@
   "controller.usb.detect": "Detect right stick axes",
   "controller.usb.move": "Move only the right stick in circles for five seconds.",
   "controller.usb.detected": "Axes detected. Release the stick and check that X and Y return to zero.",
-  "controller.usb.ambiguous": "Two clear axes were not detected. Try again moving only the right stick."
+  "controller.usb.ambiguous": "Two clear axes were not detected. Try again moving only the right stick.",
+  "update.access_error": "Windows denied file access or the file is locked. Check permissions and protection history.",
+  "update.space_error": "There is not enough space on the game drive. Free some space and try again.",
+  "update.memory_error": "There is not enough memory to prepare the update. Restart the game and try again."
 }

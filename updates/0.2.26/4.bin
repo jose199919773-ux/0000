@@ -2227,5 +2227,8 @@
   "controller.usb.detect": "Detectar eixos do analógico direito",
   "controller.usb.move": "Mova apenas o analógico direito em círculos por cinco segundos.",
   "controller.usb.detected": "Eixos detectados. Solte o analógico e confira se X e Y voltam a zero.",
-  "controller.usb.ambiguous": "Não foram detectados dois eixos claros. Tente novamente movendo apenas o analógico direito."
+  "controller.usb.ambiguous": "Não foram detectados dois eixos claros. Tente novamente movendo apenas o analógico direito.",
+  "update.access_error": "O Windows negou acesso a um arquivo ou ele está bloqueado. Verifique as permissões e o histórico de proteção.",
+  "update.space_error": "Não há espaço suficiente na unidade do jogo. Libere espaço e tente novamente.",
+  "update.memory_error": "Não há memória disponível para preparar a atualização. Reinicie o jogo e tente novamente."
 }

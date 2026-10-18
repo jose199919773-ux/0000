@@ -2227,5 +2227,8 @@
   "controller.usb.detect": "Detectar ejes del stick derecho",
   "controller.usb.move": "Mueve solo el stick derecho en círculos durante cinco segundos.",
   "controller.usb.detected": "Ejes detectados. Suelta el stick y comprueba que X e Y vuelvan a cero.",
-  "controller.usb.ambiguous": "No se detectaron dos ejes claros. Repite moviendo solo el stick derecho."
+  "controller.usb.ambiguous": "No se detectaron dos ejes claros. Repite moviendo solo el stick derecho.",
+  "update.access_error": "Windows denegó el acceso a un archivo o lo mantiene bloqueado. Revisa los permisos y el historial de protección.",
+  "update.space_error": "No hay espacio suficiente en la unidad del juego. Libera espacio y vuelve a intentarlo.",
+  "update.memory_error": "No hay memoria disponible para preparar la actualización. Reinicia el juego y vuelve a intentarlo."
 }
