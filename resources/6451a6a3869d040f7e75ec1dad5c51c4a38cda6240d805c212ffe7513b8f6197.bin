@@ -2168,6 +2168,7 @@
   "gtav.waypoint_color": "Цвет путевой точки",
   "gtav.waypoint_size": "Размер путевой точки",
   "gtav.north_size": "Северный размер",
+  "gtav.checkpoint_size": "Размер чекпоинта и метки",
   "gtav.waypoint_custom": "Пользовательский цвет путевой точки",
   "hud.selector_tlou_line1": "TLOU- здоровье и боеприпасы в стиле",
   "hud.selector_l4d_line1": "L4D- здоровье и оборудование в стиле",

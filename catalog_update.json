@@ -785,7 +785,7 @@
     {
       "id": "blips-3d",
       "name": "Blips 3D",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -813,9 +813,9 @@
       "files": [
         {
           "path": "Jose_blips_3d.asi",
-          "source": "packages/blips-3d/1.0.5/Jose_blips_3d.asi",
-          "bytes": 435200,
-          "sha256": "3a3d54f7925ac4a1120922262bb7141fc8433da65675cba31e9959a7e494d14a"
+          "source": "packages/blips-3d/1.0.6/Jose_blips_3d.asi",
+          "bytes": 443904,
+          "sha256": "15c6f24c26b5b85db3fef51a9941b2f059176c05ac3af84251be32c1cb82b157"
         }
       ],
       "titles": {
@@ -825,16 +825,16 @@
       },
       "changes": {
         "es": [
-          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
+          "Blips 3D: opción de ocultar blips al apuntar con armas, con animación de fade configurable o modo instantáneo."
         ],
         "en": [
-          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
+          "3D Blips: option to hide blips while aiming with weapons, with configurable fade animation or instant mode."
         ],
         "pt": [
-          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
+          "Blips 3D: opção de ocultar blips ao mirar com armas, com animação fade configurável ou modo instantâneo."
         ],
         "ru": [
-          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
+          "3D-блики: возможность скрывать метки при прицеливании с настраиваемым затуханием (fade) или мгновенным скрытием."
         ]
       },
       "locales": {
@@ -1175,7 +1175,7 @@
     },
     {
       "id": "custom-radar",
-      "version": "1.0.20",
+      "version": "1.0.21",
       "name": "Tablet Radar",
       "type": "asi",
       "entry": "Jose_custom_radar.asi",
@@ -1203,9 +1203,9 @@
       "files": [
         {
           "path": "Jose_custom_radar.asi",
-          "source": "packages/custom-radar/1.0.20/Jose_custom_radar.asi",
+          "source": "packages/custom-radar/1.0.21/Jose_custom_radar.asi",
           "bytes": 1127424,
-          "sha256": "a36e5846baac95136c1d4deecee4ea7a9ef4cb8cc9e444989a08eeccfb08a05e"
+          "sha256": "7b4e8ac2d9ca26aa65e00cd5b9df82861d8f12a47859310716693017af0b94cb"
         }
       ],
       "titles": {
@@ -1215,16 +1215,16 @@
       },
       "changes": {
         "es": [
-          "Radares GTA V y Tablet: escala de iconos configurable por distancia y profundidad de cámara, independiente y desactivada por defecto."
+          "Tablet Radar: iconos de vehículos y contorno de blip igualados al radar GTA V, ajuste independiente para checkpoint y blip, renombrado a \"Tamaño de tablet\" y configuración inicial por defecto actualizada."
         ],
         "en": [
-          "GTA V and Tablet radars: independent, optional icon scaling by distance and camera depth, disabled by default."
+          "Tablet Radar: vehicle icons and blip contours matched to GTA V radar, independent slider for checkpoint and blip, renamed to \"Tablet size\", and updated initial default configuration."
         ],
         "pt": [
-          "Radares GTA V e Tablet: escala dos ícones por distância e profundidade da câmera, independente e desativada por padrão."
+          "Tablet Radar: ícones de veículos e contorno de blips igualados ao radar GTA V, ajuste independente para checkpoint e blip, renomeado para \"Tamanho do tablet\" e configuração inicial padrão atualizada."
         ],
         "ru": [
-          "Радары GTA V и Tablet: независимое масштабирование значков по расстоянию и глубине камеры, по умолчанию отключено."
+          "Планшетный радар: значки транспорта и контур меток согласованы с радаром GTA V, независимая настройка для чекпоинтов и меток, переименовано в «Размер планшета» и обновлены настройки по умолчанию."
         ]
       },
       "locales": {
