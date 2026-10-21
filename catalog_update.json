@@ -1457,6 +1457,82 @@
           "groupName": "Приложения"
         }
       }
+    },
+    {
+      "id": "ambient-life",
+      "version": "1.0.0",
+      "name": "Ambiente vivo",
+      "titles": {
+        "es": "Ambiente vivo",
+        "en": "Living ambience",
+        "pt": "Ambiente vivo"
+      },
+      "type": "asi",
+      "entry": "Jose_ambient_life.asi",
+      "description": {
+        "es": "Mariposas, insectos, hojas y plumas animados alrededor del personaje o en pantalla. Selección de imágenes, presets, movimiento, duración y vista previa.",
+        "en": "Animated butterflies, insects, leaves and feathers around the character or on screen. Image selection, presets, motion, lifetime and preview.",
+        "pt": "Borboletas, insetos, folhas e penas animados ao redor do personagem ou na tela. Seleção de imagens, predefinições, movimento, duração e prévia."
+      },
+      "changes": {
+        "es": [
+          "Nuevo módulo Ambiente vivo: dos modos independientes, diez imágenes, 75 ajustes y vista previa animada."
+        ],
+        "en": [
+          "New Living ambience module: two independent modes, ten images, 75 settings and animated preview."
+        ],
+        "pt": [
+          "Novo módulo Ambiente vivo: dois modos independentes, dez imagens, 75 ajustes e prévia animada."
+        ],
+        "ru": [
+          "Новый модуль Живая атмосфера: два независимых режима, десять изображений, 75 настроек и анимированный предпросмотр."
+        ]
+      },
+      "dependencies": [],
+      "unloadable": true,
+      "api": 7,
+      "module": {
+        "group": "effects",
+        "titleKey": "module.ambient-life",
+        "title": {
+          "es": "Ambiente vivo",
+          "en": "Living ambience",
+          "pt": "Ambiente vivo"
+        },
+        "order": 10,
+        "icon": "",
+        "enabledFields": [
+          "enabled"
+        ],
+        "groupName": {
+          "es": "Efectos",
+          "en": "Effects",
+          "pt": "Efeitos"
+        },
+        "groupIcon": "",
+        "summary": {
+          "es": "Mariposas, insectos, hojas y plumas",
+          "en": "Butterflies, insects, leaves and feathers",
+          "pt": "Borboletas, insetos, folhas e penas"
+        }
+      },
+      "files": [
+        {
+          "path": "Jose_ambient_life.asi",
+          "source": "packages/ambient-life/1.0.0/Jose_ambient_life.asi",
+          "bytes": 564736,
+          "sha256": "7f6d6ceac87be8fbf2ba2826d88117c0d6cbe5581bc0508c26fb3ecc2403188a"
+        }
+      ],
+      "locales": {
+        "ru": {
+          "name": "Живая атмосфера",
+          "description": "Анимированные бабочки, насекомые, листья и перья вокруг персонажа или на экране. Выбор изображений, наборы, движение, время жизни и предпросмотр.",
+          "title": "Живая атмосфера",
+          "summary": "Бабочки, насекомые, листья и перья",
+          "groupName": "Эффекты"
+        }
+      }
     }
   ]
 }
