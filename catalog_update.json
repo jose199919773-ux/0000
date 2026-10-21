@@ -1389,7 +1389,7 @@
     },
     {
       "id": "controller-support",
-      "version": "1.1.8",
+      "version": "1.1.9",
       "name": "Soporte de mando",
       "titles": {
         "es": "Soporte de mando",
@@ -1408,9 +1408,9 @@
       "files": [
         {
           "path": "JoseStore_Control.asi",
-          "source": "packages/controller-support/1.1.8/JoseStore_Control.asi",
-          "bytes": 1784832,
-          "sha256": "6e15409f3747cd17b6f81b5b4f60cab3efc581e8beb2d919867fa09dee535445"
+          "source": "packages/controller-support/1.1.9/JoseStore_Control.asi",
+          "bytes": 1785344,
+          "sha256": "e7f972f9eef30879eadc2d1824e5c299791e4d1b8a9fe630955b9590dbe03f92"
         }
       ],
       "module": {
@@ -1440,16 +1440,16 @@
       },
       "changes": {
         "es": [
-          "Soporte Control: entrar de pasajero se asigna debajo de entrar/salir del vehículo, con la misma fila y botón para quitar la asignación."
+          "Teclado virtual solo al abrir el chat usando el mando; se oculta al usar el teclado o ratón del PC."
         ],
         "pt": [
-          "Suporte a controle: entrar como passageiro aparece abaixo de entrar/sair do veículo, com a mesma linha de atribuição e botão para remover."
+          "Teclado virtual apenas ao abrir o chat usando o controle; fica oculto ao usar teclado ou mouse do PC."
         ],
         "en": [
-          "Controller support: enter as passenger now appears directly below enter/exit vehicle, with the same binding row and clear button."
+          "Virtual keyboard appears only for chat opened using the controller and hides on PC keyboard or mouse input."
         ],
         "ru": [
-          "Поддержка геймпада: посадка пассажиром расположена под входом/выходом из транспорта с такой же строкой назначения и кнопкой очистки."
+          "Виртуальная клавиатура открывается только для чата с геймпада и скрывается при использовании клавиатуры или мыши ПК."
         ]
       },
       "locales": {

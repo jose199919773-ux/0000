@@ -2185,7 +2185,7 @@
   "controller.keyboard.cancel": "Cancel",
   "controller.keyboard.send": "Send",
   "controller.keyboard.enabled": "Virtual chat keyboard",
-  "controller.keyboard.description": "Opens with chat and a connected controller. Windows keyboard layout.",
+  "controller.keyboard.description": "Opens when you open chat using the controller. Hidden while using the PC keyboard or mouse. Windows keyboard layout.",
   "controller.keyboard.color": "Keyboard color",
   "controller.keyboard.opacity": "Keyboard opacity",
   "controller.keyboard.scale": "Keyboard size",

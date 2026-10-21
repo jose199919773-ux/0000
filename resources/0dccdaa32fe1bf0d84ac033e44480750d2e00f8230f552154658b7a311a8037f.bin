@@ -2185,7 +2185,7 @@
   "controller.keyboard.cancel": "Отмена",
   "controller.keyboard.send": "Отправить",
   "controller.keyboard.enabled": "Клавиатура виртуального чата",
-  "controller.keyboard.description": "Открывается с чатом и подключенным контроллером. Раскладка клавиатуры Windows.",
+  "controller.keyboard.description": "Открывается при вызове чата с геймпада. Скрывается при использовании клавиатуры или мыши ПК. Раскладка Windows.",
   "controller.keyboard.color": "Цвет клавиатуры",
   "controller.keyboard.opacity": "Непрозрачность клавиатуры",
   "controller.keyboard.scale": "Размер клавиатуры",

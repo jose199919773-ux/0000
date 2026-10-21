@@ -2185,7 +2185,7 @@
   "controller.keyboard.cancel": "Cancelar",
   "controller.keyboard.send": "Enviar",
   "controller.keyboard.enabled": "Teclado virtual para el chat",
-  "controller.keyboard.description": "Se abre con el chat y un mando conectado. Distribución de Windows.",
+  "controller.keyboard.description": "Se abre al abrir el chat con el mando. Se oculta al usar el teclado o ratón del PC. Distribución de Windows.",
   "controller.keyboard.color": "Color del teclado",
   "controller.keyboard.opacity": "Opacidad del teclado",
   "controller.keyboard.scale": "Tamaño del teclado",
