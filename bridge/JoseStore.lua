@@ -60,9 +60,11 @@ local function manifest(cmd)
     if not plain(path) then return nil end
     return path
 end
-local function perform(cmd)
+local function restoreHud()
+    pcall(displayHud, true)
+end
+local function perform(cmd, installed)
     local registered = false
-    local installed = read(root .. '\\installed.json')
     for _, m in ipairs(installed and installed.mods or {}) do
         local p = m.package
         if type(p) == 'table' and p.id == cmd.id and p.version == cmd.version and p.entry == cmd.entry then registered = true end
@@ -78,30 +80,35 @@ local function perform(cmd)
     else return false, 'store.command' end
     return true
 end
-local function status()
+local function status(state)
     local active = {}
-    local state = read(root .. '\\installed.json')
+    local paths
     for _, m in ipairs(state and state.mods or {}) do
         local p = m.package
         if type(p) == 'table' and p.type == 'lua' then
+            if not paths then
+                paths = {}
+                for _, s in ipairs(script.list()) do paths[normalized(s.path)] = true end
+            end
             local path = manifest(p)
-            if path and byPath(path) then active[#active+1] = { id = p.id, version = p.version } end
+            if path and paths[normalized(path)] then active[#active+1] = { id = p.id, version = p.version } end
         end
     end
     write(ipc .. '\\status.json', { protocol=1, pid=pid, instance=instance, tick=clock(), active=active })
 end
-local function process()
+local function process(installed)
     local cmd = read(ipc .. '\\request.json')
+    local now = cmd and clock() or 0
     if not cmd or cmd.protocol ~= 1 or cmd.pid ~= pid or cmd.instance ~= instance or
        type(cmd.session) ~= 'string' or #cmd.session > 100 or type(cmd.sequence) ~= 'number' or
        cmd.sequence < 1 or cmd.sequence ~= math.floor(cmd.sequence) or type(cmd.tick) ~= 'number' or
-       clock() - cmd.tick > 10000 or cmd.tick > clock() then return end
+       now - cmd.tick > 10000 or cmd.tick > now then return end
     if cmd.session == seenSession and cmd.sequence <= seenSequence then
         if cmd.sequence == seenSequence and lastReply then write(ipc .. '\\reply.json', lastReply) end
         return
     end
     seenSession, seenSequence = cmd.session, cmd.sequence
-    local success, ok, err = pcall(perform, cmd)
+    local success, ok, err = pcall(perform, cmd, installed)
     if not success then ok, err = false, 'store.lua' end
     -- Esperar al siguiente tick antes de confirmar la liberación.
     wait(0)
@@ -111,7 +118,8 @@ local function process()
         if (cmd.action == 'load' and not exists) or (cmd.action == 'unload' and exists) then ok, err = false, 'store.lua' end
     end
     lastReply = {session=cmd.session, sequence=cmd.sequence, instance=instance, ok=ok == true, error=err or ''}
-    status(); write(ipc .. '\\reply.json', lastReply)
+    status(installed); write(ipc .. '\\reply.json', lastReply)
+    return true
 end
 function main()
     if not plain(root) then return end
@@ -119,11 +127,16 @@ function main()
         if not doesDirectoryExist(dir) then createDirectory(dir) end
     end
     while true do
-        pcall(process)
-        pcall(status)
+        local installed = read(root .. '\\installed.json')
+        local ok, processed = pcall(process, installed)
+        if not ok or not processed then pcall(status, installed) end
         wait(250)
     end
 end
+function onScriptTerminate(_, quitGame)
+    if not quitGame then restoreHud() end
+end
 function onExitScript()
+    restoreHud()
     write(ipc .. '\\status.json', {protocol=1, pid=pid, instance=instance, tick=0, active={}})
 end

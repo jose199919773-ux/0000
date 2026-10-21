@@ -3,10 +3,10 @@
   "name": "José Store",
   "bridge": {
     "protocol": 1,
-    "version": "1.0.2",
+    "version": "1.0.3",
     "source": "bridge/JoseStore.lua",
-    "bytes": 6028,
-    "sha256": "11c5e04ca9ad970c8b79c1e2490cb2370c3b08b14671fd9a92156921b597421d"
+    "bytes": 6504,
+    "sha256": "a205a155f80cd7f441c8637f393de6e73db7273b72baccf1d0cc0b48e097392e"
   },
   "mods": [
     {
@@ -249,7 +249,7 @@
     {
       "id": "za4-crosshair",
       "name": "Mira ZA4",
-      "version": "1.0.13",
+      "version": "1.0.14",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -282,9 +282,9 @@
       "files": [
         {
           "path": "Jose_za4_crosshair.asi",
-          "source": "packages/za4-crosshair/1.0.13/Jose_za4_crosshair.asi",
+          "source": "packages/za4-crosshair/1.0.14/Jose_za4_crosshair.asi",
           "bytes": 59392,
-          "sha256": "d7fa5083b712a9d3350a16abd38d7a5e3cca3c61bb9858ed141b8a88f2dbd2c0"
+          "sha256": "a88ebd30d982620ddd2fe31d9212734daa5bbf44931aee7f155bc8a0939751ee"
         }
       ],
       "titles": {
@@ -294,20 +294,16 @@
       },
       "changes": {
         "es": [
-          "ZA4 usa siempre la dinámica propia de 9mm, 9mm silenciada y Desert Eagle, sin casilla adicional ni dependencia de la dinámica general.",
-          "El indicador horizontal de munición es una barra recta; la curvatura se aplica únicamente al modo de arco."
-        ],
-        "en": [
-          "ZA4 always uses separate dynamics for the 9mm, silenced 9mm and Desert Eagle, without an extra checkbox or general-dynamics dependency.",
-          "The horizontal ammunition indicator is a straight bar; curvature applies only in arc mode."
+          "Valores iniciales de Mira ZA4 tomados de la instalación indicada, incluidos dinámica de pistolas y munición."
         ],
         "pt": [
-          "ZA4 usa sempre a dinâmica própria da 9mm, 9mm silenciada e Desert Eagle, sem caixa adicional nem dependência da dinâmica geral.",
-          "O indicador horizontal de munição é uma barra reta; a curvatura se aplica somente ao modo de arco."
+          "Valores iniciais da Mira ZA4 copiados da instalação indicada, incluindo dinâmica de pistolas e munição."
+        ],
+        "en": [
+          "Initial ZA4 crosshair settings copied from the supplied installation, including pistol dynamics and ammunition."
         ],
         "ru": [
-          "ZA4 всегда использует отдельную динамику для 9mm, 9mm с глушителем и Desert Eagle, без дополнительного переключателя и зависимости от общих настроек.",
-          "Горизонтальный индикатор боеприпасов отображается прямой полосой. Изгиб применяется только к дуге."
+          "Начальные настройки прицела ZA4 скопированы из указанной установки, включая динамику пистолетов и боеприпасы."
         ]
       },
       "locales": {
@@ -785,7 +781,7 @@
     {
       "id": "blips-3d",
       "name": "Blips 3D",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -813,9 +809,9 @@
       "files": [
         {
           "path": "Jose_blips_3d.asi",
-          "source": "packages/blips-3d/1.0.6/Jose_blips_3d.asi",
+          "source": "packages/blips-3d/1.0.7/Jose_blips_3d.asi",
           "bytes": 443904,
-          "sha256": "15c6f24c26b5b85db3fef51a9941b2f059176c05ac3af84251be32c1cb82b157"
+          "sha256": "2664f69ce9fb08b5b2a7cd78e33677534ac9d6dca32ce23ede6fb716e4c858cd"
         }
       ],
       "titles": {
@@ -825,16 +821,16 @@
       },
       "changes": {
         "es": [
-          "Blips 3D: opción de ocultar blips al apuntar con armas, con animación de fade configurable o modo instantáneo."
-        ],
-        "en": [
-          "3D Blips: option to hide blips while aiming with weapons, with configurable fade animation or instant mode."
+          "Configuración inicial actualizada; comprobación agrupada de marcadores y filtro de distancia optimizado."
         ],
         "pt": [
-          "Blips 3D: opção de ocultar blips ao mirar com armas, com animação fade configurável ou modo instantâneo."
+          "Configuração inicial atualizada; verificação agrupada dos marcadores e filtro de distância otimizado."
+        ],
+        "en": [
+          "Updated initial configuration; batched marker memory checks and optimized distance filtering."
         ],
         "ru": [
-          "3D-блики: возможность скрывать метки при прицеливании с настраиваемым затуханием (fade) или мгновенным скрытием."
+          "Обновлены начальные настройки; групповая проверка памяти меток и оптимизированная фильтрация расстояния."
         ]
       },
       "locales": {
@@ -980,7 +976,7 @@
     {
       "id": "name-cflow",
       "name": "NameCFlow",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -1014,9 +1010,9 @@
       "files": [
         {
           "path": "Jose_name_cflow.asi",
-          "source": "packages/name-cflow/1.0.4/Jose_name_cflow.asi",
-          "bytes": 292352,
-          "sha256": "6bee1564e8acb294c5dc2aece9923f949371d746f4e9a6543294f056237410e9"
+          "source": "packages/name-cflow/1.0.5/Jose_name_cflow.asi",
+          "bytes": 291840,
+          "sha256": "f8cd5e1823b974140ebd5c5196515106eb17f8caa451393825e31d14ae056ab0"
         }
       ],
       "titles": {
@@ -1026,16 +1022,16 @@
       },
       "changes": {
         "es": [
-          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
-        ],
-        "en": [
-          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
+          "Efeh do GTA en 80, 150, RGB y tamaño inicial CLEO 0.30 x 1.36 ajustable; texto correcto al restablecer."
         ],
         "pt": [
-          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
+          "Efeh do GTA em 80, 150, RGB e tamanho inicial CLEO 0.30 x 1.36 ajustável; texto correto ao restaurar."
+        ],
+        "en": [
+          "Efeh do GTA at 80, 150, RGB and adjustable initial CLEO size 0.30 x 1.36; correct reset text."
         ],
         "ru": [
-          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
+          "Efeh do GTA в позиции 80, 150, RGB и настраиваемый начальный размер CLEO 0.30 x 1.36; правильный текст после сброса."
         ]
       },
       "locales": {
