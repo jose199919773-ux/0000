@@ -1460,7 +1460,7 @@
     },
     {
       "id": "ambient-life",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "name": "Ambiente vivo",
       "titles": {
         "es": "Ambiente vivo",
@@ -1476,40 +1476,34 @@
       },
       "changes": {
         "es": [
-          "Nuevo módulo Ambiente vivo: dos modos independientes, diez imágenes, 75 ajustes y vista previa animada."
+          "Ambiente vivo: integrado en la categoría \"Efectos en pantalla\", unificado a 4 pestañas de configuración optimizadas (General, Elementos, Movimiento, Apariencia) preservando todos los parámetros."
         ],
         "en": [
-          "New Living ambience module: two independent modes, ten images, 75 settings and animated preview."
+          "Living ambience: moved to \"Screen effects\" category, streamlined into 4 optimized tabs (General, Elements, Motion, Appearance) while preserving all settings."
         ],
         "pt": [
-          "Novo módulo Ambiente vivo: dois modos independentes, dez imagens, 75 ajustes e prévia animada."
+          "Ambiente vivo: integrado na categoria \"Efeitos na tela\", unificado em 4 abas de configuração otimizadas (Geral, Elementos, Movimento, Aparência) preservando todos os parâmetros."
         ],
         "ru": [
-          "Новый модуль Живая атмосфера: два независимых режима, десять изображений, 75 настроек и анимированный предпросмотр."
+          "Живая атмосфера: перемещено в категорию «Эффекты на экране», оптимизировано до 4 вкладок настроек (Общие, Элементы, Движение, Внешний вид) с сохранением всех параметров."
         ]
       },
       "dependencies": [],
       "unloadable": true,
       "api": 7,
       "module": {
-        "group": "effects",
+        "group": "screen",
         "titleKey": "module.ambient-life",
         "title": {
           "es": "Ambiente vivo",
           "en": "Living ambience",
           "pt": "Ambiente vivo"
         },
-        "order": 10,
+        "order": 50,
         "icon": "",
         "enabledFields": [
           "enabled"
         ],
-        "groupName": {
-          "es": "Efectos",
-          "en": "Effects",
-          "pt": "Efeitos"
-        },
-        "groupIcon": "",
         "summary": {
           "es": "Mariposas, insectos, hojas y plumas",
           "en": "Butterflies, insects, leaves and feathers",
@@ -1519,9 +1513,9 @@
       "files": [
         {
           "path": "Jose_ambient_life.asi",
-          "source": "packages/ambient-life/1.0.0/Jose_ambient_life.asi",
-          "bytes": 564736,
-          "sha256": "7f6d6ceac87be8fbf2ba2826d88117c0d6cbe5581bc0508c26fb3ecc2403188a"
+          "source": "packages/ambient-life/1.0.1/Jose_ambient_life.asi",
+          "bytes": 564224,
+          "sha256": "94cf9d5879dbdbfe92e74ca482b389f391764ef9f88c6c8df5e5c43ac01b2d2d"
         }
       ],
       "locales": {
@@ -1529,8 +1523,7 @@
           "name": "Живая атмосфера",
           "description": "Анимированные бабочки, насекомые, листья и перья вокруг персонажа или на экране. Выбор изображений, наборы, движение, время жизни и предпросмотр.",
           "title": "Живая атмосфера",
-          "summary": "Бабочки, насекомые, листья и перья",
-          "groupName": "Эффекты"
+          "summary": "Бабочки, насекомые, листья и перья"
         }
       }
     }
