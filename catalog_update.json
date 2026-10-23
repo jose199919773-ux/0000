@@ -1643,6 +1643,54 @@
           "description": "Меню паузы со своим рендером. Требуется Hud Remake 0.2.34. Для остановки и обновления нужен перезапуск."
         }
       }
+    },
+    {
+      "id": "chat-remake",
+      "version": "1.0.0",
+      "name": "Chat Remake",
+      "titles": {
+        "es": "Chat Remake",
+        "en": "Chat Remake",
+        "pt": "Chat Remake"
+      },
+      "type": "asi",
+      "entry": "Jose_chat_remake.asi",
+      "description": {
+        "es": "Requiere Hud Remake 0.2.36. Ajustes: /chatremake. Liberable.",
+        "en": "Requires Hud Remake 0.2.36. Settings: /chatremake. Unloadable.",
+        "pt": "Requer Hud Remake 0.2.36. Ajustes: /chatremake. Liberável."
+      },
+      "changes": {
+        "es": [
+          "Primera versión integrada."
+        ],
+        "en": [
+          "First integrated version."
+        ],
+        "pt": [
+          "Primeira versão integrada."
+        ],
+        "ru": [
+          "Первая встроенная версия."
+        ]
+      },
+      "dependencies": [],
+      "unloadable": true,
+      "api": 1,
+      "files": [
+        {
+          "path": "Jose_chat_remake.asi",
+          "source": "packages/chat-remake/1.0.0/Jose_chat_remake.asi",
+          "bytes": 4415488,
+          "sha256": "0505c25b03d4e99d3980e91c3c2ec0e5990c34d2ae7786441c2366aaaf484a75"
+        }
+      ],
+      "locales": {
+        "ru": {
+          "name": "Chat Remake",
+          "description": "Требуется Hud Remake 0.2.36. Настройки: /chatremake. Выгружаемый."
+        }
+      }
     }
   ]
 }
