@@ -1546,9 +1546,9 @@
       "type": "asi",
       "entry": "Jose_pause_menu.asi",
       "description": {
-        "es": "Menú de pausa con render propio. Requiere Hud Remake 0.2.34. No liberable: reinicia para detenerlo o actualizarlo.",
-        "en": "Pause menu with its own renderer. Requires Hud Remake 0.2.34. Restart to stop or update.",
-        "pt": "Menu de pausa com render próprio. Requer Hud Remake 0.2.34. Reinicie para parar ou atualizar."
+        "es": "Menú de pausa personalizable con un diseño renovado.",
+        "en": "Customizable pause menu with a refreshed design.",
+        "pt": "Menu de pausa personalizável com um visual renovado."
       },
       "changes": {
         "es": [
@@ -1647,7 +1647,7 @@
       "locales": {
         "ru": {
           "name": "Меню паузы",
-          "description": "Меню паузы со своим рендером. Требуется Hud Remake 0.2.34. Для остановки и обновления нужен перезапуск."
+          "description": "Настраиваемое меню паузы с обновлённым оформлением."
         }
       }
     },
@@ -1663,9 +1663,9 @@
       "type": "asi",
       "entry": "Jose_chat_remake.asi",
       "description": {
-        "es": "Requiere Hud Remake 0.2.36. Ajustes: /chatremake. Liberable.",
-        "en": "Requires Hud Remake 0.2.36. Settings: /chatremake. Unloadable.",
-        "pt": "Requer Hud Remake 0.2.36. Ajustes: /chatremake. Liberável."
+        "es": "Chat personalizable para SA-MP. Ajustes: /chatremake.",
+        "en": "Customizable SA-MP chat. Settings: /chatremake.",
+        "pt": "Chat personalizável para SA-MP. Ajustes: /chatremake."
       },
       "changes": {
         "es": [
@@ -1693,7 +1693,7 @@
       "locales": {
         "ru": {
           "name": "Chat Remake",
-          "description": "Настройки: /chatremake. Требуется Hud Remake 0.2.36."
+          "description": "Настраиваемый чат SA-MP. Настройки: /chatremake."
         }
       },
       "unloadable": true,
