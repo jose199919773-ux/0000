@@ -1171,8 +1171,8 @@
     },
     {
       "id": "custom-radar",
-      "version": "1.0.21",
-      "name": "Tablet Radar",
+      "version": "1.0.22",
+      "name": "Radar tablet",
       "type": "asi",
       "entry": "Jose_custom_radar.asi",
       "description": {
@@ -1180,6 +1180,42 @@
         "en": "Small tablet radar with players, icons and effects. Shares the map installed from Efeh Maps.",
         "pt": "Radar em uma pequena tablet: jogadores, ícones e efeitos. Compartilha o mapa instalado pelo Efeh Maps."
       },
+      "files": [
+        {
+          "path": "Jose_custom_radar.asi",
+          "source": "packages/custom-radar/1.0.22/Jose_custom_radar.asi",
+          "bytes": 1131520,
+          "sha256": "68d3f7a9302cab5aa433c186a75988f7ef43341c5f417cf85b2700f8c456cdd0"
+        }
+      ],
+      "titles": {
+        "es": "Radar tablet",
+        "en": "Tablet Radar",
+        "pt": "Radar tablet"
+      },
+      "changes": {
+        "es": [
+          "Iconos sin giro, misiles pequeños y rutas GPS ajustables compartidas."
+        ],
+        "en": [
+          "Upright icons, small missiles and adjustable shared GPS routes."
+        ],
+        "pt": [
+          "Ícones fixos, mísseis pequenos e rotas GPS compartilhadas ajustáveis."
+        ],
+        "ru": [
+          "Значки без вращения, небольшие ракеты и настраиваемый общий GPS."
+        ]
+      },
+      "locales": {
+        "ru": {
+          "name": "Tablet Radar",
+          "description": "Небольшой планшетный радар с игроками, значками и эффектами. Делится картой, установленной из Efeh Maps.",
+          "summary": "Радар в виде планшета с эффектами и многим другим",
+          "title": "Tablet Radar"
+        }
+      },
+      "dependencies": [],
       "unloadable": true,
       "api": 7,
       "module": {
@@ -1194,40 +1230,11 @@
         },
         "enabledFields": [
           "radar.active"
-        ]
-      },
-      "files": [
-        {
-          "path": "Jose_custom_radar.asi",
-          "source": "packages/custom-radar/1.0.21/Jose_custom_radar.asi",
-          "bytes": 1127424,
-          "sha256": "7b4e8ac2d9ca26aa65e00cd5b9df82861d8f12a47859310716693017af0b94cb"
-        }
-      ],
-      "titles": {
-        "es": "Radar tablet",
-        "en": "Tablet Radar",
-        "pt": "Radar tablet"
-      },
-      "changes": {
-        "es": [
-          "Tablet Radar: iconos de vehículos y contorno de blip igualados al radar GTA V, ajuste independiente para checkpoint y blip, renombrado a \"Tamaño de tablet\" y configuración inicial por defecto actualizada."
         ],
-        "en": [
-          "Tablet Radar: vehicle icons and blip contours matched to GTA V radar, independent slider for checkpoint and blip, renamed to \"Tablet size\", and updated initial default configuration."
-        ],
-        "pt": [
-          "Tablet Radar: ícones de veículos e contorno de blips igualados ao radar GTA V, ajuste independente para checkpoint e blip, renomeado para \"Tamanho do tablet\" e configuração inicial padrão atualizada."
-        ],
-        "ru": [
-          "Планшетный радар: значки транспорта и контур меток согласованы с радаром GTA V, независимая настройка для чекпоинтов и меток, переименовано в «Размер планшета» и обновлены настройки по умолчанию."
-        ]
-      },
-      "locales": {
-        "ru": {
-          "name": "Планшетный радар",
-          "description": "Небольшой планшетный радар с игроками, значками и эффектами. Делится картой, установленной из Efeh Maps.",
-          "summary": "Радар в виде планшета с эффектами и многим другим"
+        "title": {
+          "es": "Radar tablet",
+          "en": "Tablet Radar",
+          "pt": "Radar tablet"
         }
       }
     },
@@ -1538,7 +1545,7 @@
     },
     {
       "id": "pause-menu",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "name": "Menú de pausa",
       "titles": {
         "es": "Menú de pausa",
@@ -1554,104 +1561,100 @@
       },
       "changes": {
         "es": [
-          "Menú de pausa disponible como ASI residente de José Store, con render propio y arranque exclusivo desde Hud Remake.",
-          "Recursos actualizables separados de ajustes y fondos personalizados; retirada y actualización requieren reiniciar."
+          "Marcadores en toda la zona del mapa y restauración del ratón al despausar."
         ],
         "en": [
-          "Pause menu available as a resident Jose Store ASI, with its own renderer and explicit startup from Hud Remake.",
-          "Updatable resources are separated from settings and custom backgrounds; removal and updates require a restart."
+          "Waypoints across the entire map and restored mouse input after unpausing."
         ],
         "pt": [
-          "Menu de pausa disponível como ASI residente da José Store, com render próprio e início exclusivo pelo Hud Remake.",
-          "Recursos atualizáveis separados dos ajustes e fundos personalizados; remoção e atualização exigem reiniciar."
+          "Marcadores em toda a área do mapa e restauração do mouse ao sair da pausa."
         ],
         "ru": [
-          "Меню паузы доступно как резидентный ASI José Store со своим рендером и запуском через Hud Remake.",
-          "Обновляемые ресурсы отделены от настроек и своих фонов; удаление и обновление требуют перезапуска."
+          "Метки по всей карте и восстановление мыши после паузы."
         ]
       },
       "dependencies": [],
-      "unloadable": false,
       "files": [
         {
           "path": "Jose_pause_menu.asi",
-          "source": "packages/pause-menu/1.0.0/Jose_pause_menu.asi",
-          "bytes": 1094144,
-          "sha256": "9ae8e2becdb1846201db2e5a4df86f04ead2731506e4dbc5e8edf486be6b54cf"
+          "source": "packages/pause-menu/1.0.1/Jose_pause_menu.asi",
+          "bytes": 1095168,
+          "sha256": "961b12253aff7ae0b9af4f4720bfe74909491d17a5a830afda31df0ece458729"
         },
         {
           "path": "PauseMenu/background.png",
-          "source": "packages/pause-menu/1.0.0/PauseMenu/background.png",
+          "source": "packages/pause-menu/1.0.1/PauseMenu/background.png",
           "bytes": 1967876,
           "sha256": "e25025d4d7f6306f9f53c1a5c9cd8a9c9b34da59aa8c16c1e516de4c054e3caa"
         },
         {
           "path": "PauseMenu/icons.dat",
-          "source": "packages/pause-menu/1.0.0/PauseMenu/icons.dat",
+          "source": "packages/pause-menu/1.0.1/PauseMenu/icons.dat",
           "bytes": 170100,
           "sha256": "f3e40bd38295ee81e0c472930d9df807b6a7153aea1bcb373f2b2717b6c55cd6"
         },
         {
           "path": "PauseMenu/languages/de.ini",
-          "source": "packages/pause-menu/1.0.0/PauseMenu/languages/de.ini",
+          "source": "packages/pause-menu/1.0.1/PauseMenu/languages/de.ini",
           "bytes": 2782,
           "sha256": "1008965ccadd117071468b83813109b1bfbc8b201a34785f17905b858fe6b1ef"
         },
         {
           "path": "PauseMenu/languages/en.ini",
-          "source": "packages/pause-menu/1.0.0/PauseMenu/languages/en.ini",
+          "source": "packages/pause-menu/1.0.1/PauseMenu/languages/en.ini",
           "bytes": 2549,
           "sha256": "ab70b151533ae1f4bb1d0cbf86b61658f1317ee9d07150d998da366e09ac700b"
         },
         {
           "path": "PauseMenu/languages/es.ini",
-          "source": "packages/pause-menu/1.0.0/PauseMenu/languages/es.ini",
+          "source": "packages/pause-menu/1.0.1/PauseMenu/languages/es.ini",
           "bytes": 2757,
           "sha256": "85b94cc757a437450d1a82c13ab0bcea67273a9808d32429d89ca515d5d71756"
         },
         {
           "path": "PauseMenu/languages/fr.ini",
-          "source": "packages/pause-menu/1.0.0/PauseMenu/languages/fr.ini",
+          "source": "packages/pause-menu/1.0.1/PauseMenu/languages/fr.ini",
           "bytes": 2828,
           "sha256": "f01cd4cd9e5ad0ba3e00c717089b6f1d08c457d791ad88888f904d8486f70e23"
         },
         {
           "path": "PauseMenu/languages/it.ini",
-          "source": "packages/pause-menu/1.0.0/PauseMenu/languages/it.ini",
+          "source": "packages/pause-menu/1.0.1/PauseMenu/languages/it.ini",
           "bytes": 2768,
           "sha256": "8ced589e5b308326fb4e2b1ad7ee0e8d71b239c12955c59b185519aa37c75118"
         },
         {
           "path": "PauseMenu/languages/pt.ini",
-          "source": "packages/pause-menu/1.0.0/PauseMenu/languages/pt.ini",
+          "source": "packages/pause-menu/1.0.1/PauseMenu/languages/pt.ini",
           "bytes": 2765,
           "sha256": "fa7f87ce49377f94560d90c21e982e7f036153eb6c2a8dca2e51afa6f1405f60"
         },
         {
           "path": "PauseMenu/map.jpg",
-          "source": "packages/pause-menu/1.0.0/PauseMenu/map.jpg",
+          "source": "packages/pause-menu/1.0.1/PauseMenu/map.jpg",
           "bytes": 1050139,
           "sha256": "fd42766e0bee90eee05043c7b01b8a3ea32cd006e69580d55c18c01b0d761a7e"
         },
         {
           "path": "PauseMenu/music.mp3",
-          "source": "packages/pause-menu/1.0.0/PauseMenu/music.mp3",
+          "source": "packages/pause-menu/1.0.1/PauseMenu/music.mp3",
           "bytes": 384985,
           "sha256": "38389cdf52a4457790cd97da89848bac6e3c6f3cffac5d5f7f49e67b0df25fe8"
         },
         {
           "path": "PauseMenu/settings.ini",
-          "source": "packages/pause-menu/1.0.0/PauseMenu/settings.ini",
+          "source": "packages/pause-menu/1.0.1/PauseMenu/settings.ini",
           "bytes": 264,
           "sha256": "cc224973d71aac7fac501a1a25e2295e10503a123c2be77102e8b5c78232d3b9"
         }
       ],
       "locales": {
         "ru": {
-          "name": "Меню паузы",
+          "name": "Menú de pausa",
           "description": "Настраиваемое меню паузы с обновлённым оформлением."
         }
-      }
+      },
+      "unloadable": false
     },
     {
       "id": "chat-remake",
