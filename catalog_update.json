@@ -1646,7 +1646,7 @@
     },
     {
       "id": "chat-remake",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "name": "Chat Remake",
       "titles": {
         "es": "Chat Remake",
@@ -1662,35 +1662,35 @@
       },
       "changes": {
         "es": [
-          "Primera versión integrada."
+          "Corrige cierre, recursos y fallos del trabajador."
         ],
         "en": [
-          "First integrated version."
+          "Fixes shutdown, resources and worker failures."
         ],
         "pt": [
-          "Primeira versão integrada."
+          "Corrige encerramento, recursos e falhas do serviço."
         ],
         "ru": [
-          "Первая встроенная версия."
+          "Исправлены завершение, ресурсы и ошибки рабочего потока."
         ]
       },
       "dependencies": [],
-      "unloadable": true,
-      "api": 1,
       "files": [
         {
           "path": "Jose_chat_remake.asi",
-          "source": "packages/chat-remake/1.0.0/Jose_chat_remake.asi",
-          "bytes": 4415488,
-          "sha256": "0505c25b03d4e99d3980e91c3c2ec0e5990c34d2ae7786441c2366aaaf484a75"
+          "source": "packages/chat-remake/1.0.1/Jose_chat_remake.asi",
+          "bytes": 4416512,
+          "sha256": "e0513ac9e767433936d718cc7f6feef5aa401dccaba67a0ee3cab0f9319d7dd2"
         }
       ],
       "locales": {
         "ru": {
           "name": "Chat Remake",
-          "description": "Требуется Hud Remake 0.2.36. Настройки: /chatremake. Выгружаемый."
+          "description": ""
         }
-      }
+      },
+      "unloadable": true,
+      "api": 1
     }
   ]
 }
