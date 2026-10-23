@@ -2267,6 +2267,5 @@
   "store.preview_failed": "Preview unavailable",
   "store.preview_retry": "Retry",
   "gtav.icons_at_edge": "Fit distant indicators to the edge",
-  "store.expand_preview": "Enlarge preview",
   "update.same_version": "The HUD is already on this version. Pending resources and installed module updates will be completed."
 }
