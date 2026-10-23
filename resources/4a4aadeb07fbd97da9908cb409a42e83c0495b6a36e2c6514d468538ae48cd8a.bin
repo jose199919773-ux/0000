@@ -2265,5 +2265,6 @@
   "store.preview_next": "Далее",
   "store.preview_loading": "Загрузка изображения…",
   "store.preview_failed": "Изображение недоступно",
-  "store.preview_retry": "Повторить"
+  "store.preview_retry": "Повторить",
+  "gtav.icons_at_edge": "Все отметки по краю"
 }

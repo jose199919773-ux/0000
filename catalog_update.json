@@ -1693,7 +1693,7 @@
       "locales": {
         "ru": {
           "name": "Chat Remake",
-          "description": ""
+          "description": "Настройки: /chatremake. Требуется Hud Remake 0.2.36."
         }
       },
       "unloadable": true,

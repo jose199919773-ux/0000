@@ -2265,5 +2265,6 @@
   "store.preview_next": "Next",
   "store.preview_loading": "Loading preview…",
   "store.preview_failed": "Preview unavailable",
-  "store.preview_retry": "Retry"
+  "store.preview_retry": "Retry",
+  "gtav.icons_at_edge": "All indicators at the edge"
 }

@@ -2265,5 +2265,6 @@
   "store.preview_next": "Próxima",
   "store.preview_loading": "Carregando prévia…",
   "store.preview_failed": "Prévia indisponível",
-  "store.preview_retry": "Tentar novamente"
+  "store.preview_retry": "Tentar novamente",
+  "gtav.icons_at_edge": "Todos os indicadores na borda"
 }
