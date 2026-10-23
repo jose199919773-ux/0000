@@ -2259,5 +2259,11 @@
   "store.batch.all": "Установить все",
   "store.batch.select": "Выбрать для установки",
   "store.batch.selected": "Выбрано",
-  "store.batch.progress": "Установка"
+  "store.batch.progress": "Установка",
+  "store.previews": "Предпросмотр",
+  "store.preview_previous": "Назад",
+  "store.preview_next": "Далее",
+  "store.preview_loading": "Загрузка изображения…",
+  "store.preview_failed": "Изображение недоступно",
+  "store.preview_retry": "Повторить"
 }

@@ -2259,5 +2259,11 @@
   "store.batch.all": "Install all",
   "store.batch.select": "Select to install",
   "store.batch.selected": "Selected",
-  "store.batch.progress": "Installing"
+  "store.batch.progress": "Installing",
+  "store.previews": "Previews",
+  "store.preview_previous": "Previous",
+  "store.preview_next": "Next",
+  "store.preview_loading": "Loading preview…",
+  "store.preview_failed": "Preview unavailable",
+  "store.preview_retry": "Retry"
 }

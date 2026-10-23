@@ -1525,7 +1525,14 @@
           "title": "Живая атмосфера",
           "summary": "Бабочки, насекомые, листья и перья"
         }
-      }
+      },
+      "previews": [
+        {
+          "source": "previews/d66dc7667d598e80c8c0cb76f3d495e91545f8d1d2c534b3c175c5c38649beb6.jpg",
+          "bytes": 12878,
+          "sha256": "d66dc7667d598e80c8c0cb76f3d495e91545f8d1d2c534b3c175c5c38649beb6"
+        }
+      ]
     },
     {
       "id": "pause-menu",

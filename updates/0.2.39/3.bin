@@ -2259,5 +2259,11 @@
   "store.batch.all": "Instalar todos",
   "store.batch.select": "Seleccionar para instalar",
   "store.batch.selected": "Seleccionados",
-  "store.batch.progress": "Instalando"
+  "store.batch.progress": "Instalando",
+  "store.previews": "Vistas previas",
+  "store.preview_previous": "Anterior",
+  "store.preview_next": "Siguiente",
+  "store.preview_loading": "Cargando vista previa…",
+  "store.preview_failed": "Vista previa no disponible",
+  "store.preview_retry": "Reintentar"
 }
