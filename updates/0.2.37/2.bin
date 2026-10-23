@@ -2255,5 +2255,9 @@
   "controller.shortcuts.samp": "SA-MP only##shortcut_samp",
   "controller.shortcuts.conflict": "Shares buttons with another binding. The complete combination has priority; the shortcut reserves its buttons while active.",
   "controller.shortcuts.remove": "Remove shortcut",
-  "controller.shortcuts.add": "Add shortcut"
+  "controller.shortcuts.add": "Add shortcut",
+  "store.batch.all": "Install all",
+  "store.batch.select": "Select to install",
+  "store.batch.selected": "Selected",
+  "store.batch.progress": "Installing"
 }

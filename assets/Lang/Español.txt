@@ -2255,5 +2255,9 @@
   "controller.shortcuts.samp": "Solo en SA-MP##shortcut_samp",
   "controller.shortcuts.conflict": "Comparte botones con otra asignación. La combinación completa tiene prioridad; el atajo consume sus botones mientras está activo.",
   "controller.shortcuts.remove": "Eliminar atajo",
-  "controller.shortcuts.add": "Añadir atajo"
+  "controller.shortcuts.add": "Añadir atajo",
+  "store.batch.all": "Instalar todos",
+  "store.batch.select": "Seleccionar para instalar",
+  "store.batch.selected": "Seleccionados",
+  "store.batch.progress": "Instalando"
 }

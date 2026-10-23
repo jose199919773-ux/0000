@@ -2255,5 +2255,9 @@
   "controller.shortcuts.samp": "Somente no SA-MP##shortcut_samp",
   "controller.shortcuts.conflict": "Compartilha botões com outra atribuição. A combinação completa tem prioridade; o atalho reserva seus botões enquanto está ativo.",
   "controller.shortcuts.remove": "Excluir atalho",
-  "controller.shortcuts.add": "Adicionar atalho"
+  "controller.shortcuts.add": "Adicionar atalho",
+  "store.batch.all": "Instalar todos",
+  "store.batch.select": "Selecionar para instalar",
+  "store.batch.selected": "Selecionados",
+  "store.batch.progress": "Instalando"
 }
