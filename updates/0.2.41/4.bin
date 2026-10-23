@@ -2266,5 +2266,5 @@
   "store.preview_loading": "Carregando prévia…",
   "store.preview_failed": "Prévia indisponível",
   "store.preview_retry": "Tentar novamente",
-  "gtav.icons_at_edge": "Todos os indicadores na borda"
+  "gtav.icons_at_edge": "Ajustar indicadores distantes à borda"
 }
