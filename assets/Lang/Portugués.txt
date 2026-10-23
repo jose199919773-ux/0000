@@ -1233,7 +1233,7 @@
   "store.duplicate": "Este ASI já está carregado fora da loja.",
   "store.launch_hint": "Descubra, instale e gerencie mods pela José Store",
   "store.unknown": "Estado pendente",
-  "store.unloadable": "Pode ser descarregado durante o jogo",
+  "store.unloadable": "Detalhes: pode ser descarregado durante o jogo.",
   "store.resident": "Não pode ser descarregado: reinicie o jogo para desativá-lo.",
   "store.restart_required": "Este ASI precisa reiniciar o jogo para concluir a operação.",
   "store.remove_restart": "Desinstalação pendente. Continuará ativo até reiniciar o jogo.",
@@ -2194,7 +2194,7 @@
   "update.title": "Atualização do Hud Remake",
   "update.installed": "Instalada",
   "update.available": "Disponível",
-  "update.ready": "Atualização preparada. Será instalada quando você fechar GTA/SA-MP.",
+  "update.ready": "Atualização preparada. Feche GTA / SA-MP e aguarde a janela do instalador informar que já pode abrir o jogo.",
   "update.close": "Fechar",
   "update.downloading": "Baixando e verificando. Você pode continuar usando o jogo.",
   "update.changes": "Registro de alterações",
@@ -2266,5 +2266,7 @@
   "store.preview_loading": "Carregando prévia…",
   "store.preview_failed": "Prévia indisponível",
   "store.preview_retry": "Tentar novamente",
-  "gtav.icons_at_edge": "Ajustar indicadores distantes à borda"
+  "gtav.icons_at_edge": "Ajustar indicadores distantes à borda",
+  "store.expand_preview": "Ampliar prévia",
+  "update.same_version": "O HUD já está nesta versão. Serão concluídos os recursos pendentes e as atualizações dos módulos instalados."
 }
