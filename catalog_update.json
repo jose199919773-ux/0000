@@ -672,7 +672,7 @@
     {
       "id": "weapon-selector",
       "name": "Weapon Selector",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "type": "asi",
       "unloadable": true,
       "api": 6,
@@ -701,9 +701,9 @@
       "files": [
         {
           "path": "Jose_weapon_selector.asi",
-          "source": "packages/weapon-selector/1.0.6/Jose_weapon_selector.asi",
+          "source": "packages/weapon-selector/1.0.7/Jose_weapon_selector.asi",
           "bytes": 212480,
-          "sha256": "5387431ea0d62bd9c42bb59e924eefadd3bb60727ca15138c6689eea0a012f04"
+          "sha256": "73d196016a16cfb887dbbb53ba2768f9d1c16ccbbf0ff1d8a7ede88a9a4ab4b3"
         }
       ],
       "titles": {
@@ -713,16 +713,16 @@
       },
       "changes": {
         "es": [
-          "Configuraciones iniciales tomadas de los ajustes guardados para los 23 módulos; los archivos válidos existentes se conservan."
+          "Corregido orden de iconos de armas para M4, AK-47 y Tec-9."
         ],
         "en": [
-          "Initial settings captured from the saved preferences for all 23 modules; existing valid configuration files are preserved."
+          "Corrected weapon icon ordering for M4, AK-47, and Tec-9."
         ],
         "pt": [
-          "Valores iniciais obtidos das configurações salvas dos 23 módulos; arquivos válidos existentes são preservados."
+          "Corrigida a ordem dos ícones de armas para M4, AK-47 e Tec-9."
         ],
         "ru": [
-          "Начальные параметры взяты из сохранённых настроек всех 23 модулей. Существующие исправные конфигурации сохраняются."
+          "Исправлен порядок значков оружия для M4, AK-47 и Tec-9."
         ]
       },
       "locales": {
