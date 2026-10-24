@@ -2292,10 +2292,12 @@
   "classic.damage_trail": "Mostrar daño reciente",
   "classic.adaptive_pulse": "Pulso según la vida restante",
   "classic.pulse_intensity": "Intensidad del pulso",
-  "classic.blood_drops": "Gotas de sangre en la barra al recibir daño",
-  "classic.blood_hint": "La cantidad depende del daño recibido. Se desvanecen dentro de la barra y se limpian al recuperar vida.",
+  "classic.blood_drops": "Gotas de sangre bajo la barra al recibir daño",
+  "classic.blood_hint": "Caen suavemente desde la barra y se desvanecen. La cantidad depende del daño recibido; al curarte se limpian.",
   "classic.blood_intensity": "Cantidad de gotas",
   "classic.blood_duration": "Duración de las gotas",
   "classic.blood_size": "Tamaño de las gotas",
-  "classic.blood_color": "Color de las gotas"
+  "classic.blood_color": "Color de las gotas",
+  "classic.life_preview": "Vista previa de daño",
+  "classic.life_preview_hint": "Simulación con tus ajustes: no cambia tu vida."
 }

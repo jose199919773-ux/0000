@@ -2292,10 +2292,12 @@
   "classic.damage_trail": "Show recent damage",
   "classic.adaptive_pulse": "Pulse based on remaining health",
   "classic.pulse_intensity": "Pulse intensity",
-  "classic.blood_drops": "Blood drops inside the bar when damaged",
-  "classic.blood_hint": "The amount depends on damage taken. Drops fade inside the bar and clear when health recovers.",
+  "classic.blood_drops": "Falling blood drops below the bar when damaged",
+  "classic.blood_hint": "Drops fall gently from the bar and fade. Their amount depends on damage taken; healing clears them.",
   "classic.blood_intensity": "Drop amount",
   "classic.blood_duration": "Drop lifetime",
   "classic.blood_size": "Drop size",
-  "classic.blood_color": "Drop color"
+  "classic.blood_color": "Drop color",
+  "classic.life_preview": "Preview damage",
+  "classic.life_preview_hint": "Simulation using your settings: does not change your health."
 }
