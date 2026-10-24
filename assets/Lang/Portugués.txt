@@ -2293,11 +2293,18 @@
   "classic.adaptive_pulse": "Pulso conforme a vida restante",
   "classic.pulse_intensity": "Intensidade do pulso",
   "classic.blood_drops": "Gotas de sangue abaixo da barra ao receber dano",
-  "classic.blood_hint": "As gotas caem suavemente da barra e desaparecem. A quantidade depende do dano recebido; recuperar vida remove as gotas.",
+  "classic.blood_hint": "As gotas caem suavemente e desaparecem. No modo contínuo, a frequência depende da vida restante.",
   "classic.blood_intensity": "Quantidade de gotas",
   "classic.blood_duration": "Duração das gotas",
   "classic.blood_size": "Tamanho das gotas",
   "classic.blood_color": "Cor das gotas",
   "classic.life_preview": "Prévia de dano",
-  "classic.life_preview_hint": "Simulação com seus ajustes: não altera sua vida."
+  "classic.life_preview_hint": "Simulação com seus ajustes: não altera sua vida.",
+  "classic.blood_speed": "Velocidade inicial de queda",
+  "classic.blood_gravity": "Gravidade das gotas",
+  "classic.blood_motion_hint": "Para uma queda longa, reduza a velocidade e a gravidade. A duração não impede que saiam da tela.",
+  "classic.blood_continuous": "Sangramento contínuo com vida baixa",
+  "classic.blood_threshold": "Sangrar abaixo desta vida",
+  "classic.blood_rate": "Intensidade do sangramento contínuo",
+  "classic.blood_continuous_hint": "Quanto menos vida restar, mais frequentes serão as gotas, mesmo sem novos impactos."
 }

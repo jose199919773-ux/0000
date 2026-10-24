@@ -2293,11 +2293,18 @@
   "classic.adaptive_pulse": "Pulse based on remaining health",
   "classic.pulse_intensity": "Pulse intensity",
   "classic.blood_drops": "Falling blood drops below the bar when damaged",
-  "classic.blood_hint": "Drops fall gently from the bar and fade. Their amount depends on damage taken; healing clears them.",
+  "classic.blood_hint": "Drops fall gently and fade. In continuous mode, their frequency depends on remaining health.",
   "classic.blood_intensity": "Drop amount",
   "classic.blood_duration": "Drop lifetime",
   "classic.blood_size": "Drop size",
   "classic.blood_color": "Drop color",
   "classic.life_preview": "Preview damage",
-  "classic.life_preview_hint": "Simulation using your settings: does not change your health."
+  "classic.life_preview_hint": "Simulation using your settings: does not change your health.",
+  "classic.blood_speed": "Initial falling speed",
+  "classic.blood_gravity": "Drop gravity",
+  "classic.blood_motion_hint": "For a long fall, reduce speed and gravity. Lifetime does not stop drops leaving the screen.",
+  "classic.blood_continuous": "Continuous bleeding at low health",
+  "classic.blood_threshold": "Bleed below this health",
+  "classic.blood_rate": "Continuous bleeding intensity",
+  "classic.blood_continuous_hint": "The less health remains, the more frequently drops appear, even without new hits."
 }
