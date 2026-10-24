@@ -1665,12 +1665,12 @@
     },
     {
       "id": "ambient-life",
-      "version": "1.0.1",
-      "name": "Ambiente vivo",
+      "version": "1.0.2",
+      "name": "Fauna ambiental",
       "titles": {
-        "es": "Ambiente vivo",
-        "en": "Living ambience",
-        "pt": "Ambiente vivo"
+        "es": "Fauna ambiental",
+        "en": "Ambient Wildlife",
+        "pt": "Fauna ambiental"
       },
       "type": "asi",
       "entry": "Jose_ambient_life.asi",
@@ -1681,16 +1681,16 @@
       },
       "changes": {
         "es": [
-          "Ambiente vivo: integrado en la categoría \"Efectos en pantalla\", unificado a 4 pestañas de configuración optimizadas (General, Elementos, Movimiento, Apariencia) preservando todos los parámetros."
+          "Fauna ambiental: renombrado del módulo, presets rebalanceados y valores iniciales más sutiles y realistas (escala ajustada, mayor radio y pausas naturales)."
         ],
         "en": [
-          "Living ambience: moved to \"Screen effects\" category, streamlined into 4 optimized tabs (General, Elements, Motion, Appearance) while preserving all settings."
+          "Ambient Wildlife: renamed module, rebalanced presets, and subtler, more realistic initial values (adjusted scale, wider radius, and natural pauses)."
         ],
         "pt": [
-          "Ambiente vivo: integrado na categoria \"Efeitos na tela\", unificado em 4 abas de configuração otimizadas (Geral, Elementos, Movimento, Aparência) preservando todos os parâmetros."
+          "Fauna ambiental: módulo renomeado, predefinições rebalanceadas e valores iniciais mais sutis e realistas (escala ajustada, maior raio e pausas naturais)."
         ],
         "ru": [
-          "Живая атмосфера: перемещено в категорию «Эффекты на экране», оптимизировано до 4 вкладок настроек (Общие, Элементы, Движение, Внешний вид) с сохранением всех параметров."
+          "Окружающая фауна: переименование модуля, перебалансировка пресетов и более естественные начальные параметры (исправленный масштаб, увеличенный радиус и паузы между появлениями)."
         ]
       },
       "dependencies": [],
@@ -1700,9 +1700,9 @@
         "group": "screen",
         "titleKey": "module.ambient-life",
         "title": {
-          "es": "Ambiente vivo",
-          "en": "Living ambience",
-          "pt": "Ambiente vivo"
+          "es": "Fauna ambiental",
+          "en": "Ambient Wildlife",
+          "pt": "Fauna ambiental"
         },
         "order": 50,
         "icon": "",
@@ -1718,16 +1718,16 @@
       "files": [
         {
           "path": "Jose_ambient_life.asi",
-          "source": "packages/ambient-life/1.0.1/Jose_ambient_life.asi",
+          "source": "packages/ambient-life/1.0.2/Jose_ambient_life.asi",
           "bytes": 564224,
-          "sha256": "94cf9d5879dbdbfe92e74ca482b389f391764ef9f88c6c8df5e5c43ac01b2d2d"
+          "sha256": "92d8cf3a2fbd937ea327ca1618cd1ac5f7eb83bb47642a1914b246a4e337deec"
         }
       ],
       "locales": {
         "ru": {
-          "name": "Живая атмосфера",
+          "name": "Окружающая фауна",
           "description": "Анимированные бабочки, насекомые, листья и перья вокруг персонажа или на экране. Выбор изображений, наборы, движение, время жизни и предпросмотр.",
-          "title": "Живая атмосфера",
+          "title": "Окружающая фауна",
           "summary": "Бабочки, насекомые, листья и перья"
         }
       },
