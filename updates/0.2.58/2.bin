@@ -1340,7 +1340,7 @@
   "classic.bar_radius": "Roundness",
   "classic.bar_segment_count": "Segment count",
   "classic.bar_gap": "Spacing",
-  "classic.bar_smooth": "Smooth transition and recent damage",
+  "classic.bar_smooth": "Smooth transition",
   "classic.bar_duration": "Transition duration",
   "classic.bar_damage_hold": "Recent damage hold time",
   "classic.bar_damage_color": "Recent damage color",
@@ -2287,5 +2287,15 @@
   "store.preview_failed": "Preview unavailable",
   "store.preview_retry": "Retry",
   "gtav.icons_at_edge": "Fit distant indicators to the edge",
-  "update.same_version": "The HUD is already on this version. Pending resources and installed module updates will be completed."
+  "update.same_version": "The HUD is already on this version. Pending resources and installed module updates will be completed.",
+  "classic.life_demo": "Try health effects",
+  "classic.damage_trail": "Show recent damage",
+  "classic.adaptive_pulse": "Pulse based on remaining health",
+  "classic.pulse_intensity": "Pulse intensity",
+  "classic.blood_drops": "Blood drops inside the bar when damaged",
+  "classic.blood_hint": "The amount depends on damage taken. Drops fade inside the bar and clear when health recovers.",
+  "classic.blood_intensity": "Drop amount",
+  "classic.blood_duration": "Drop lifetime",
+  "classic.blood_size": "Drop size",
+  "classic.blood_color": "Drop color"
 }

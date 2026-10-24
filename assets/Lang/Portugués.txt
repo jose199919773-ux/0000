@@ -1340,7 +1340,7 @@
   "classic.bar_radius": "Arredondamento",
   "classic.bar_segment_count": "Quantidade de segmentos",
   "classic.bar_gap": "Espaçamento",
-  "classic.bar_smooth": "Transição suave e dano recente",
+  "classic.bar_smooth": "Transição suave",
   "classic.bar_duration": "Duração da transição",
   "classic.bar_damage_hold": "Tempo do dano recente",
   "classic.bar_damage_color": "Cor do dano recente",
@@ -2287,5 +2287,15 @@
   "store.preview_failed": "Prévia indisponível",
   "store.preview_retry": "Tentar novamente",
   "gtav.icons_at_edge": "Ajustar indicadores distantes à borda",
-  "update.same_version": "O HUD já está nesta versão. Serão concluídos os recursos pendentes e as atualizações dos módulos instalados."
+  "update.same_version": "O HUD já está nesta versão. Serão concluídos os recursos pendentes e as atualizações dos módulos instalados.",
+  "classic.life_demo": "Testar efeitos de vida",
+  "classic.damage_trail": "Mostrar dano recente",
+  "classic.adaptive_pulse": "Pulso conforme a vida restante",
+  "classic.pulse_intensity": "Intensidade do pulso",
+  "classic.blood_drops": "Gotas de sangue na barra ao receber dano",
+  "classic.blood_hint": "A quantidade depende do dano recebido. As gotas desaparecem dentro da barra e são removidas ao recuperar vida.",
+  "classic.blood_intensity": "Quantidade de gotas",
+  "classic.blood_duration": "Duração das gotas",
+  "classic.blood_size": "Tamanho das gotas",
+  "classic.blood_color": "Cor das gotas"
 }
